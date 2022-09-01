@@ -1,0 +1,28 @@
+{{ if and .IsPage (ne .Params.comment false) }}
+    {{ template "_internal/disqus.html" . }}
+
+    <!-- utteranc -->
+    {{ if .Site.Params.utteranc.enable }}
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "{{ .Site.Params.utteranc.repo }}"
+            issue-term="{{ .Site.Params.utteranc.issueTerm }}"
+            theme="{{ .Site.Params.utteranc.theme }}"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    {{ end }}
+    <!--waline-->
+    {{ if .Site.Params.waline.enable }}
+    <div id="waline"></div>
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+    <script>
+        Waline({
+            el: '#waline',
+            serverURL: '{{ .Site.Params.waline.serverURL }}',
+            placeholder: '{{ .Site.Params.waline.placeholder }}',
+        });
+    </script>
+    {{ end }}
+{{- end }}
