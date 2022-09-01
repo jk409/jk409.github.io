@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on jk409的博客</title>
-    <link>https://jk409.github.io/categories/docker/</link>
+    <link>https://jk409.github.io/tags/docker/</link>
     <description>Recent content in docker on jk409的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 01 Sep 2022 17:31:20 +0800</lastBuildDate><atom:link href="https://jk409.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 17:31:20 +0800</lastBuildDate><atom:link href="https://jk409.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test</title>
       <link>https://jk409.github.io/post/2022/2022-9-1-test-2/</link>
