@@ -145,6 +145,7 @@
     <li>
       <ul>
         <li><a href="#安装docker流程如下">安装docker,流程如下：</a></li>
+        <li><a href="#daemonjson文件内容如下">daemon.json文件内容如下：</a></li>
         <li><a href="#heading"></a></li>
       </ul>
     </li>
@@ -264,6 +265,11 @@ function main {
     fi
 }
 main
+</code></pre><h3 id="daemonjson文件内容如下">daemon.json文件内容如下：</h3>
+<pre tabindex="0"><code>#cat /etc/docker/daemon.json
+{
+    &#34;registry-mirrors&#34;: [&#34;https://bmtrgdvx.mirror.aliyuncs.com&#34;, &#34;https://hub-mirror.c.163.com&#34;, &#34;https://dockerhub.azk8s.cn&#34;]
+}
 </code></pre><h3 id="heading"></h3>
 
         </div>
