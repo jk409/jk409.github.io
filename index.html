@@ -74,6 +74,81 @@
 <div class="res-cons">
     
     
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://jk409.github.io/post/2022/2022-9-2-install-docker/" title="安装 Docker">安装 Docker</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月2日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/k8s'>k8s</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &#34;&gt;&gt; Install Docker&#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &#34;&gt;&gt; Install Docker&#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint……
+        </div>
+        <p class="readmore"><a href="https://jk409.github.io/post/2022/2022-9-2-install-docker/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://jk409.github.io/post/2022/2022-9-1-anqian/" title="网络安全科普手册">网络安全科普手册</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E5%AE%89%E5%85%A8'>安全</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            网络安全科普手册……
+        </div>
+        <p class="readmore"><a href="https://jk409.github.io/post/2022/2022-9-1-anqian/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://jk409.github.io/post/2022/2022-9-1-safe-2/" title="防数据勒索">防数据勒索</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月1日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E5%AE%89%E5%85%A8'>安全</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            点击后面：防数据勒索……
+        </div>
+        <p class="readmore"><a href="https://jk409.github.io/post/2022/2022-9-1-safe-2/">阅读全文</a></p>
+    </article>
+    
+    
+    
 
 
 
@@ -127,6 +202,18 @@
         <h3 class="widget-title">最近文章</h3>
 <ul class="widget-list">
     
+    <li>
+        <a href="https://jk409.github.io/post/2022/2022-9-2-install-docker/" title="安装 Docker">安装 Docker</a>
+    </li>
+    
+    <li>
+        <a href="https://jk409.github.io/post/2022/2022-9-1-anqian/" title="网络安全科普手册">网络安全科普手册</a>
+    </li>
+    
+    <li>
+        <a href="https://jk409.github.io/post/2022/2022-9-1-safe-2/" title="防数据勒索">防数据勒索</a>
+    </li>
+    
 </ul>
     </section>
 
@@ -136,12 +223,26 @@
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
+    <li><a href="https://jk409.github.io/categories/k8s/">k8s (1)</a></li>
+    
+    <li><a href="https://jk409.github.io/categories/%E5%AE%89%E5%85%A8/">安全 (2)</a></li>
+    
 </ul>
     </section>
 
     <section class="widget">
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
+    
+    <a href="https://jk409.github.io/tags/docker/">docker</a>
+    
+    <a href="https://jk409.github.io/tags/k8s/">k8s</a>
+    
+    <a href="https://jk409.github.io/tags/%E5%AE%89%E5%85%A8/">安全</a>
+    
+    <a href="https://jk409.github.io/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/">防勒索</a>
+    
+    <a href="https://jk409.github.io/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/">防数据勒索</a>
     
 </div>
     </section>

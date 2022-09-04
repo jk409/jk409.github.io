@@ -5,6 +5,25 @@
     <link>https://jk409.github.io/categories/</link>
     <description>Recent content in Categories on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://jk409.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="https://jk409.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>k8s</title>
+      <link>https://jk409.github.io/categories/k8s/</link>
+      <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
+      
+      <guid>https://jk409.github.io/categories/k8s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>安全</title>
+      <link>https://jk409.github.io/categories/%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
+      
+      <guid>https://jk409.github.io/categories/%E5%AE%89%E5%85%A8/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
