@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 网中维</title>
-    <link>/categories.html</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>k8s</title>
-      <link>/categories/k8s.html</link>
+      <link>/categories/k8s/</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>/categories/k8s.html</guid>
+      <guid>/categories/k8s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安全</title>
-      <link>/categories/%E5%AE%89%E5%85%A8.html</link>
+      <link>/categories/%E5%AE%89%E5%85%A8/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>/categories/%E5%AE%89%E5%85%A8.html</guid>
+      <guid>/categories/%E5%AE%89%E5%85%A8/</guid>
       <description></description>
     </item>
     

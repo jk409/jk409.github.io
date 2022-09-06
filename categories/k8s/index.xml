@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>k8s on 网中维</title>
-    <link>/categories/k8s.html</link>
+    <link>/categories/k8s/</link>
     <description>Recent content in k8s on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on 网中维</title>
-    <link>/tags/docker.html</link>
+    <link>/tags/docker/</link>
     <description>Recent content in docker on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>

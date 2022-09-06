@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 网中维</title>
-    <link>/post.html</link>
+    <link>/post/</link>
     <description>Recent content in Posts on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
@@ -27,10 +27,10 @@
     
     <item>
       <title>网络安全科普手册</title>
-      <link>/post/2022/2022-9-1-anqian.html</link>
+      <link>/post/2022/9/2/anqian.html</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>/post/2022/2022-9-1-anqian.html</guid>
+      <guid>/post/2022/9/2/anqian.html</guid>
       <description>网络安全科普手册</description>
     </item>
     
