@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网中维</title>
-    <link>https://jk409.github.io/</link>
+    <link>/</link>
     <description>Recent content on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="https://jk409.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装 Docker</title>
-      <link>https://jk409.github.io/post/2022/2022-9-2-install-docker/</link>
+      <link>/post/2022/2022-9-2-install-docker/</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>https://jk409.github.io/post/2022/2022-9-2-install-docker/</guid>
+      <guid>/post/2022/2022-9-2-install-docker/</guid>
       <description>安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint</description>
     </item>
     
     <item>
       <title>防数据勒索</title>
-      <link>https://jk409.github.io/post/2022/2022-9-1-safe-2/</link>
+      <link>/post/2022/2022-9-1-safe-2/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://jk409.github.io/post/2022/2022-9-1-safe-2/</guid>
+      <guid>/post/2022/2022-9-1-safe-2/</guid>
       <description>点击后面：防数据勒索</description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>https://jk409.github.io/tools/</link>
+      <link>/tools/</link>
       <pubDate>Thu, 01 Sep 2022 15:37:12 +0800</pubDate>
       
-      <guid>https://jk409.github.io/tools/</guid>
+      <guid>/tools/</guid>
       <description>建造中&amp;hellip;&amp;hellip;</description>
     </item>
     
     <item>
       <title>网络安全科普手册</title>
-      <link>https://jk409.github.io/post/2022/2022-9-1-anqian/</link>
+      <link>/post/2022/2022-9-1-anqian/</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>https://jk409.github.io/post/2022/2022-9-1-anqian/</guid>
+      <guid>/post/2022/2022-9-1-anqian/</guid>
       <description>网络安全科普手册</description>
     </item>
     
     <item>
       <title>关于我</title>
-      <link>https://jk409.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Tue, 10 Mar 2015 00:13:27 +0000</pubDate>
       
-      <guid>https://jk409.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>专业系统运维十余年&amp;hellip;&amp;hellip;熟悉各类烹饪技巧！！！</description>
     </item>
     
     <item>
       <title>归档</title>
-      <link>https://jk409.github.io/archives/</link>
+      <link>/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jk409.github.io/archives/</guid>
+      <guid>/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>搜索</title>
-      <link>https://jk409.github.io/search/</link>
+      <link>/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jk409.github.io/search/</guid>
+      <guid>/search/</guid>
       <description></description>
     </item>
     

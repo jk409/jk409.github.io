@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 网中维</title>
-    <link>https://jk409.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="https://jk409.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker</title>
-      <link>https://jk409.github.io/tags/docker/</link>
+      <link>/tags/docker/</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>https://jk409.github.io/tags/docker/</guid>
+      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>k8s</title>
-      <link>https://jk409.github.io/tags/k8s/</link>
+      <link>/tags/k8s/</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>https://jk409.github.io/tags/k8s/</guid>
+      <guid>/tags/k8s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安全</title>
-      <link>https://jk409.github.io/tags/%E5%AE%89%E5%85%A8/</link>
+      <link>/tags/%E5%AE%89%E5%85%A8/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://jk409.github.io/tags/%E5%AE%89%E5%85%A8/</guid>
+      <guid>/tags/%E5%AE%89%E5%85%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>防勒索</title>
-      <link>https://jk409.github.io/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</link>
+      <link>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://jk409.github.io/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</guid>
+      <guid>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>防数据勒索</title>
-      <link>https://jk409.github.io/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
+      <link>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://jk409.github.io/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</guid>
+      <guid>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</guid>
       <description></description>
     </item>
     
