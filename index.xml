@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装 Docker</title>
-      <link>/post/2022/9/2/install-docker.html</link>
+      <link>/post/2022/2022-9-2-install-docker.html</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>/post/2022/9/2/install-docker.html</guid>
+      <guid>/post/2022/2022-9-2-install-docker.html</guid>
       <description>安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint</description>
     </item>
     
