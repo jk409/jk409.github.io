@@ -6,7 +6,16 @@
     <description>Recent content on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Sep 2022 11:29:31 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 14:13:16 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gproxy</title>
+      <link>/post/2022/9/7/gproxy.html</link>
+      <pubDate>Wed, 07 Sep 2022 14:13:16 +0800</pubDate>
+      
+      <guid>/post/2022/9/7/gproxy.html</guid>
+      <description>gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t tls -p &amp;#34;:12580&amp;#34; -T tls -P &amp;#34;103.97.3.216:12590&amp;#34; -C proxy.crt -K proxy.key --daemon # webproc ./webproc -u admin --pass 123456 -h 127.0.0.1 -p 8080 -c ./config.txt -- ./proxy @config.txt 结尾 若对你有帮助，不介意打赏支持一</description>
+    </item>
+    
     <item>
       <title>安装 NFS</title>
       <link>/post/2022/9/7install-nfs.html</link>

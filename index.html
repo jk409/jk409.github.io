@@ -79,6 +79,24 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="/post/2022/9/7/gproxy.html" title="Gproxy">Gproxy</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月7日
+        </date>
+        
+        <div class="post-content">
+            gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t tls -p &#34;:12580&#34; -T tls -P &#34;103.97.3.216:12590&#34; -C proxy.crt -K proxy.key --daemon # webproc ./webproc -u admin --pass 123456 -h 127.0.0.1 -p 8080 -c ./config.txt -- ./proxy @config.txt 结尾 若对你有帮助，不介意打赏支持一……
+        </div>
+        <p class="readmore"><a href="/post/2022/9/7/gproxy.html">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="/post/2022/9/7install-nfs.html" title="安装 NFS">安装 NFS</a>
             </h1>
         </header>
@@ -228,6 +246,10 @@
     <section class="widget">
         <h3 class="widget-title">最近文章</h3>
 <ul class="widget-list">
+    
+    <li>
+        <a href="/post/2022/9/7/gproxy.html" title="Gproxy">Gproxy</a>
+    </li>
     
     <li>
         <a href="/post/2022/9/7install-nfs.html" title="安装 NFS">安装 NFS</a>
