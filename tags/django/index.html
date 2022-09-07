@@ -9,21 +9,21 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>Categories | 网中维</title>
-    <meta property="og:title" content="Categories - 网中维">
+    <title>django | 网中维</title>
+    <meta property="og:title" content="django - 网中维">
     <meta property="og:type" content="article">
         
         
     <meta name="Keywords" content="golang,go语言,go语言笔记,网中维,shell,python,k8s,博客,项目管理,软件架构">
-    <meta name="description" content="Categories">
+    <meta name="description" content="django">
         
     <meta name="author" content="网中维">
-    <meta property="og:url" content="/categories/">
+    <meta property="og:url" content="/tags/django/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="网中维" />
+    <link rel="alternate" type="application/rss+xml" href="/tags/django/index.xml" title="网中维" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -74,58 +74,38 @@
 
                 <div class="col-8" id="main">
                     
-<header>
+<div class="res-cons">
     
-        <h1>共有4个分类</h1>
+    <h3 class="archive-title">
+        包含标签
+        <span class="keyword">django</span>
+        的文章
+    </h3>
     
-</header>
-<div class="post-archive">
+
     
-    <h2><a href="/categories/%E5%AE%89%E5%85%A8">安全</a> (2)</h2>
-    <ul class="listing">
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="/posts/2022/2022090716-django-nginx.html">Django Nginx</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月7日
+        </date>
         
-        <li>
-            <span class="date">2022/09/01</span>
-            <a href="/posts/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
-        </li>
-        
-        <li>
-            <span class="date">2022/09/01</span>
-            <a href="/posts/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
-        </li>
-        
-    </ul>
+        <div class="post-content">
+            django nignx.conf 生产模式配置如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name huashengshu.top; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name _ dns.zysncp.com; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex off; expires 7d; }……
+            <p class="readmore"><a href="/posts/2022/2022090716-django-nginx.html">阅读全文</a></p>
+        </div>
+    </article>
     
-    <h2><a href="/categories/k8s">k8s</a> (1)</h2>
-    <ul class="listing">
-        
-        <li>
-            <span class="date">2022/09/02</span>
-            <a href="/posts/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
-        </li>
-        
-    </ul>
+
     
-    <h2><a href="/categories/soft">soft</a> (1)</h2>
-    <ul class="listing">
-        
-        <li>
-            <span class="date">2022/09/07</span>
-            <a href="/posts/2022/9/7/install-nfs.html" title="安装 NFS">安装 NFS</a>
-        </li>
-        
-    </ul>
-    
-    <h2><a href="/categories/tools">tools</a> (1)</h2>
-    <ul class="listing">
-        
-        <li>
-            <span class="date">2022/09/01</span>
-            <a href="/tools/" title="常用软件工具">常用软件工具</a>
-        </li>
-        
-    </ul>
-    
+
+
+
+
 
 </div>
 

@@ -79,6 +79,24 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="/posts/2022/2022090716-django-nginx.html" title="Django Nginx">Django Nginx</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月7日
+        </date>
+        
+        <div class="post-content">
+            django nignx.conf 生产模式配置如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name huashengshu.top; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name _ dns.zysncp.com; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex off; expires 7d; }……
+        </div>
+        <p class="readmore"><a href="/posts/2022/2022090716-django-nginx.html">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="/posts/2022/9/7/gproxy.html" title="Gproxy">Gproxy</a>
             </h1>
         </header>
@@ -248,6 +266,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="/posts/2022/2022090716-django-nginx.html" title="Django Nginx">Django Nginx</a>
+    </li>
+    
+    <li>
         <a href="/posts/2022/9/7/gproxy.html" title="Gproxy">Gproxy</a>
     </li>
     
@@ -290,6 +312,8 @@
     <section class="widget">
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
+    
+    <a href="/tags/django/">django</a>
     
     <a href="/tags/docker/">docker</a>
     

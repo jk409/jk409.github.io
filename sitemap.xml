@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/2022/9/7/gproxy.html</loc>
-    <lastmod>2022-09-07T14:13:16+08:00</lastmod>
+    <loc>/tags/django/</loc>
+    <lastmod>2022-09-07T16:12:41+08:00</lastmod>
+  </url><url>
+    <loc>/posts/2022/2022090716-django-nginx.html</loc>
+    <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2022-09-07T14:13:16+08:00</lastmod>
+    <lastmod>2022-09-07T16:12:41+08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2022-09-07T16:12:41+08:00</lastmod>
+  </url><url>
+    <loc>/posts/2022/9/7/gproxy.html</loc>
     <lastmod>2022-09-07T14:13:16+08:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
     <loc>/categories/k8s/</loc>
-    <lastmod>2022-09-02T16:06:18+08:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
     <loc>/posts/2022/2022-9-2-install-docker.html</loc>
