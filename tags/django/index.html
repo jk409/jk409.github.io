@@ -95,7 +95,7 @@
         </date>
         
         <div class="post-content">
-            django nignx.conf 生产模式配置如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name huashengshu.top; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name _ dns.zysncp.com; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex off; expires 7d; }……
+            django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name huashengshu.top; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name _ dns.zysncp.com; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex off;……
             <p class="readmore"><a href="/posts/2022/2022090716-django-nginx.html">阅读全文</a></p>
         </div>
     </article>
