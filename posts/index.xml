@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>网中维</title>
-    <link>/</link>
-    <description>Recent content on 网中维</description>
+    <title>Posts on 网中维</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装 Docker</title>
       <link>/post/2022/2022-9-2-install-docker.html</link>
@@ -26,48 +26,12 @@
     </item>
     
     <item>
-      <title>关于我</title>
-      <link>/about/</link>
-      <pubDate>Thu, 01 Sep 2022 09:13:27 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>专业系统运维十余年&amp;hellip;&amp;hellip;熟悉各类烹饪技巧！！！ E-mail: jk409@qq.com</description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>/tools/</link>
-      <pubDate>Thu, 01 Sep 2022 15:37:12 +0800</pubDate>
-      
-      <guid>/tools/</guid>
-      <description>建造中&amp;hellip;&amp;hellip;</description>
-    </item>
-    
-    <item>
       <title>网络安全科普手册</title>
       <link>/post/2022/9/2/anqian.html</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
       <guid>/post/2022/9/2/anqian.html</guid>
       <description>网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat</description>
-    </item>
-    
-    <item>
-      <title>归档</title>
-      <link>/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>搜索</title>
-      <link>/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/search/</guid>
-      <description></description>
     </item>
     
   </channel>

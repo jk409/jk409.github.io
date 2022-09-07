@@ -9,21 +9,21 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>安全 | 网中维</title>
-    <meta property="og:title" content="安全 - 网中维">
+    <title>Posts | 网中维</title>
+    <meta property="og:title" content="Posts - 网中维">
     <meta property="og:type" content="article">
         
         
     <meta name="Keywords" content="golang,go语言,go语言笔记,网中维,shell,python,k8s,博客,项目管理,软件架构">
-    <meta name="description" content="安全">
+    <meta name="description" content="Posts">
         
     <meta name="author" content="网中维">
-    <meta property="og:url" content="/categories/%E5%AE%89%E5%85%A8/">
+    <meta property="og:url" content="/posts/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="/categories/%E5%AE%89%E5%85%A8/index.xml" title="网中维" />
+    <link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="网中维" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -54,7 +54,7 @@
 
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="" href="/">首页</a>
+                    <a class="current" href="/">首页</a>
                     
                     <a  href="/archives/" title="归档">归档</a>
                     
@@ -76,61 +76,81 @@
                     
 <div class="res-cons">
     
-    <h3 class="archive-title">
-        分类
-        <span class="keyword">安全</span>
-        中的文章
-    </h3>
-    
-
     
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="/post/2022/9/2/safe.html">防数据勒索</a>
+                <a href="/post/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月2日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/k8s'>k8s</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &#34;&gt;&gt; Install Docker&#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &#34;&gt;&gt; Install Docker&#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint……
+        </div>
+        <p class="readmore"><a href="/post/2022/2022-9-2-install-docker.html">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="/post/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
             2022年9月1日
         </date>
         
-        <div class="post-meta meta-category">
-            |
+        <div class="post-meta">
+            <span>|</span>
             
-            <a href='/categories/%E5%AE%89%E5%85%A8'>安全</a>
+            <span class="meta-category"><a href='/categories/%E5%AE%89%E5%85%A8'>安全</a></span>
             
         </div>
         
         <div class="post-content">
             点击后面：防数据勒索 赞赏一下 支付宝-zhifubao 微信-wechat……
-            <p class="readmore"><a href="/post/2022/9/2/safe.html">阅读全文</a></p>
         </div>
+        <p class="readmore"><a href="/post/2022/9/2/safe.html">阅读全文</a></p>
     </article>
+    
+    
     
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="/post/2022/9/2/anqian.html">网络安全科普手册</a>
+                <a href="/post/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
             2022年9月1日
         </date>
         
-        <div class="post-meta meta-category">
-            |
+        <div class="post-meta">
+            <span>|</span>
             
-            <a href='/categories/%E5%AE%89%E5%85%A8'>安全</a>
+            <span class="meta-category"><a href='/categories/%E5%AE%89%E5%85%A8'>安全</a></span>
             
         </div>
         
         <div class="post-content">
             网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat……
-            <p class="readmore"><a href="/post/2022/9/2/anqian.html">阅读全文</a></p>
         </div>
+        <p class="readmore"><a href="/post/2022/9/2/anqian.html">阅读全文</a></p>
     </article>
     
-
+    
     
 
 
