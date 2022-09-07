@@ -6,31 +6,40 @@
     <description>Recent content in Posts on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 02 Sep 2022 16:06:18 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 11:29:31 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装 NFS</title>
+      <link>/post/2022/9/7install-nfs.html</link>
+      <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
+      
+      <guid>/post/2022/9/7install-nfs.html</guid>
+      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu</description>
+    </item>
+    
     <item>
       <title>安装 Docker</title>
-      <link>/post/2022/2022-9-2-install-docker.html</link>
+      <link>/posts/2022/2022-9-2-install-docker.html</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>/post/2022/2022-9-2-install-docker.html</guid>
+      <guid>/posts/2022/2022-9-2-install-docker.html</guid>
       <description>安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint</description>
     </item>
     
     <item>
       <title>防数据勒索</title>
-      <link>/post/2022/9/2/safe.html</link>
+      <link>/posts/2022/9/2/safe.html</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>/post/2022/9/2/safe.html</guid>
+      <guid>/posts/2022/9/2/safe.html</guid>
       <description>点击后面：防数据勒索 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat</description>
     </item>
     
     <item>
       <title>网络安全科普手册</title>
-      <link>/post/2022/9/2/anqian.html</link>
+      <link>/posts/2022/9/2/anqian.html</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>/post/2022/9/2/anqian.html</guid>
+      <guid>/posts/2022/9/2/anqian.html</guid>
       <description>网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat</description>
     </item>
     

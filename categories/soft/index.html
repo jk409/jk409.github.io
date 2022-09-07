@@ -9,21 +9,21 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>docker | 网中维</title>
-    <meta property="og:title" content="docker - 网中维">
+    <title>soft | 网中维</title>
+    <meta property="og:title" content="soft - 网中维">
     <meta property="og:type" content="article">
         
         
     <meta name="Keywords" content="golang,go语言,go语言笔记,网中维,shell,python,k8s,博客,项目管理,软件架构">
-    <meta name="description" content="docker">
+    <meta name="description" content="soft">
         
     <meta name="author" content="网中维">
-    <meta property="og:url" content="/tags/docker/">
+    <meta property="og:url" content="/categories/soft/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="/tags/docker/index.xml" title="网中维" />
+    <link rel="alternate" type="application/rss+xml" href="/categories/soft/index.xml" title="网中维" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -77,9 +77,9 @@
 <div class="res-cons">
     
     <h3 class="archive-title">
-        包含标签
-        <span class="keyword">docker</span>
-        的文章
+        分类
+        <span class="keyword">soft</span>
+        中的文章
     </h3>
     
 
@@ -87,23 +87,23 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="/posts/2022/2022-9-2-install-docker.html">安装 Docker</a>
+                <a href="/post/2022/9/7install-nfs.html">安装 NFS</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
-            2022年9月2日
+            2022年9月7日
         </date>
         
         <div class="post-meta meta-category">
             |
             
-            <a href='/categories/k8s'>k8s</a>
+            <a href='/categories/soft'>soft</a>
             
         </div>
         
         <div class="post-content">
-            安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &#34;&gt;&gt; Install Docker&#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &#34;&gt;&gt; Install Docker&#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint……
-            <p class="readmore"><a href="/posts/2022/2022-9-2-install-docker.html">阅读全文</a></p>
+            安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu……
+            <p class="readmore"><a href="/post/2022/9/7install-nfs.html">阅读全文</a></p>
         </div>
     </article>
     

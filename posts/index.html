@@ -80,7 +80,32 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="/post/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
+                <a href="/post/2022/9/7install-nfs.html" title="安装 NFS">安装 NFS</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月7日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/soft'>soft</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu……
+        </div>
+        <p class="readmore"><a href="/post/2022/9/7install-nfs.html">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="/posts/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
@@ -97,7 +122,7 @@
         <div class="post-content">
             安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &#34;&gt;&gt; Install Docker&#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &#34;&gt;&gt; Install Docker&#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint……
         </div>
-        <p class="readmore"><a href="/post/2022/2022-9-2-install-docker.html">阅读全文</a></p>
+        <p class="readmore"><a href="/posts/2022/2022-9-2-install-docker.html">阅读全文</a></p>
     </article>
     
     
@@ -105,7 +130,7 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="/post/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
+                <a href="/posts/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
@@ -122,7 +147,7 @@
         <div class="post-content">
             点击后面：防数据勒索 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat……
         </div>
-        <p class="readmore"><a href="/post/2022/9/2/safe.html">阅读全文</a></p>
+        <p class="readmore"><a href="/posts/2022/9/2/safe.html">阅读全文</a></p>
     </article>
     
     
@@ -130,7 +155,7 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="/post/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
+                <a href="/posts/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
@@ -147,7 +172,7 @@
         <div class="post-content">
             网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat……
         </div>
-        <p class="readmore"><a href="/post/2022/9/2/anqian.html">阅读全文</a></p>
+        <p class="readmore"><a href="/posts/2022/9/2/anqian.html">阅读全文</a></p>
     </article>
     
     
@@ -206,15 +231,19 @@
 <ul class="widget-list">
     
     <li>
-        <a href="/post/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
+        <a href="/post/2022/9/7install-nfs.html" title="安装 NFS">安装 NFS</a>
     </li>
     
     <li>
-        <a href="/post/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
+        <a href="/posts/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
     </li>
     
     <li>
-        <a href="/post/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
+        <a href="/posts/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
+    </li>
+    
+    <li>
+        <a href="/posts/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
     </li>
     
 </ul>
@@ -227,6 +256,10 @@
 <ul class="widget-list">
     
     <li><a href="/categories/k8s/">k8s (1)</a></li>
+    
+    <li><a href="/categories/soft/">soft (1)</a></li>
+    
+    <li><a href="/categories/tools/">tools (1)</a></li>
     
     <li><a href="/categories/%E5%AE%89%E5%85%A8/">安全 (2)</a></li>
     
