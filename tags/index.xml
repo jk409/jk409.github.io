@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 飞雪无情的博客</title>
-    <link>https://www.flysnow.org/tags/</link>
-    <description>Recent content in Tags on 飞雪无情的博客</description>
+    <title>Tags on 网中维</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Sep 2022 16:12:41 +0800</lastBuildDate><atom:link href="https://www.flysnow.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 16:12:41 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>django</title>
-      <link>https://www.flysnow.org/tags/django/</link>
+      <link>/tags/django/</link>
       <pubDate>Wed, 07 Sep 2022 16:12:41 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/django/</guid>
+      <guid>/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://www.flysnow.org/tags/linux/</link>
+      <link>/tags/linux/</link>
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nfs</title>
-      <link>https://www.flysnow.org/tags/nfs/</link>
+      <link>/tags/nfs/</link>
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/nfs/</guid>
+      <guid>/tags/nfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://www.flysnow.org/tags/docker/</link>
+      <link>/tags/docker/</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/docker/</guid>
+      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>k8s</title>
-      <link>https://www.flysnow.org/tags/k8s/</link>
+      <link>/tags/k8s/</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/k8s/</guid>
+      <guid>/tags/k8s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安全</title>
-      <link>https://www.flysnow.org/tags/%E5%AE%89%E5%85%A8/</link>
+      <link>/tags/%E5%AE%89%E5%85%A8/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/%E5%AE%89%E5%85%A8/</guid>
+      <guid>/tags/%E5%AE%89%E5%85%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>防勒索</title>
-      <link>https://www.flysnow.org/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</link>
+      <link>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</guid>
+      <guid>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>防数据勒索</title>
-      <link>https://www.flysnow.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
+      <link>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</guid>
+      <guid>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网络安全</title>
-      <link>https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link>
+      <link>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</guid>
+      <guid>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网络安全手册</title>
-      <link>https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</link>
+      <link>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</guid>
+      <guid>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</guid>
       <description></description>
     </item>
     

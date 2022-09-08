@@ -9,8 +9,8 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>安装 Docker | 飞雪无情的博客</title>
-    <meta property="og:title" content="安装 Docker - 飞雪无情的博客">
+    <title>安装 Docker | 网中维</title>
+    <meta property="og:title" content="安装 Docker - 网中维">
     <meta property="og:type" content="article">
         
     <meta property="article:published_time" content='2022-09-02T16:06:18&#43;08:00'>
@@ -18,11 +18,11 @@
         
     <meta property="article:modified_time" content='2022-09-02T16:06:18&#43;08:00'>
         
-    <meta name="Keywords" content="golang,go语言,go语言笔记,飞雪无情,java,android,博客,项目管理,python,软件架构,公众号,小程序">
+    <meta name="Keywords" content="golang,go语言,go语言笔记,网中维,shell,python,k8s,博客,项目管理,软件架构">
     <meta name="description" content="安装 Docker">
         
-    <meta name="author" content="飞雪无情">
-    <meta property="og:url" content="https://www.flysnow.org/posts/2022/2022-9-2-install-docker.html">
+    <meta name="author" content="网中维">
+    <meta property="og:url" content="/posts/2022/2022-9-2-install-docker.html">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -47,23 +47,21 @@
         <div class="col-group">
             <div class="site-name ">
                 
-                    <a id="logo" href="https://www.flysnow.org">
-                        飞雪无情的博客
+                    <a id="logo" href="/">
+                        网中维
                     </a>
                 
-                <p class="description">专注于Android、Java、Go语言(golang)、移动互联网、项目管理、软件架构</p>
+                <p class="description">专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构</p>
             </div>
-            
-
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current" href="https://www.flysnow.org">首页</a>
+                    <a class="current" href="/">首页</a>
                     
-                    <a  href="https://www.flysnow.org/tools/" title="工具">工具</a>
+                    <a  href="/archives" title="归档">归档</a>
                     
-                    <a  href="https://www.flysnow.org/archives/" title="归档">归档</a>
+                    <a  href="/tools" title="工具">工具</a>
                     
-                    <a  href="https://www.flysnow.org/about/" title="关于">关于</a>
+                    <a  href="/about" title="关于">关于</a>
                     
                 </nav>
             </div>
@@ -81,8 +79,8 @@
     <style type="text/css">
     .post-toc {
         position: fixed;
-        width: -200px;
-        margin-left: 210px;
+        width: 200px;
+        margin-left: -210px;
         padding: 5px 10px;
         font-family: Athelas, STHeiti, Microsoft Yahei, serif;
         font-size: 12px;
@@ -295,8 +293,8 @@ main
         
 <div class="post-archive">
     <ul class="post-copyright">
-        <li><strong>原文作者：</strong><a rel="author" href="https://www.flysnow.org">飞雪无情</a></li>
-        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://www.flysnow.org/posts/2022/2022-9-2-install-docker.html">https://www.flysnow.org/posts/2022/2022-9-2-install-docker.html</a></li>
+        <li><strong>原文作者：</strong><a rel="author" href="/">网中维</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="/posts/2022/2022-9-2-install-docker.html">/posts/2022/2022-9-2-install-docker.html</a></li>
         <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
@@ -337,38 +335,9 @@ main
         </div>
     </article>
     
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    window.disqus_config = function () {
     
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
     
-    
-    <div class="post bg-white">
-      <script src="https://utteranc.es/client.js"
-            repo= "your github repo"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-      </script>
-    </div>
     
     
     
@@ -377,7 +346,7 @@ main
 
                     <footer id="footer">
     <div>
-        &copy; 2022 <a href="https://www.flysnow.org">飞雪无情的博客 By 飞雪无情</a>
+        &copy; 2022 <a href="/">网中维 By 网中维</a>
         
     </div>
     <br />
@@ -386,7 +355,7 @@ main
             <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
         </div>
         <div class="github-badge">
-            <a href="https://www/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">网中维</span></a>
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
         </div>
         <div class="github-badge">
             <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
@@ -420,10 +389,10 @@ main
 
                 <div id="secondary">
     <section class="widget">
-        <form id="search" action='https://www.flysnow.org/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
-      <input type="hidden" name="sitesearch" value="https://www.flysnow.org">
+      <input type="hidden" name="sitesearch" value="/">
       <button type="submit" class="submit icon-search"></button>
 </form>
     </section>
@@ -433,76 +402,45 @@ main
 <ul class="widget-list">
     
     <li>
-        <a href="https://www.flysnow.org/posts/2022/2022090716-django-nginx.html" title="Django Nginx">Django Nginx</a>
+        <a href="/posts/2022/2022090716-django-nginx.html" title="Django Nginx">Django Nginx</a>
     </li>
     
     <li>
-        <a href="https://www.flysnow.org/posts/2022/9/7/gproxy.html" title="Gproxy">Gproxy</a>
+        <a href="/posts/2022/9/7/gproxy.html" title="Gproxy">Gproxy</a>
     </li>
     
     <li>
-        <a href="https://www.flysnow.org/posts/2022/9/7/install-nfs.html" title="安装 NFS">安装 NFS</a>
+        <a href="/posts/2022/9/7/install-nfs.html" title="安装 NFS">安装 NFS</a>
     </li>
     
     <li>
-        <a href="https://www.flysnow.org/posts/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
+        <a href="/posts/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
     </li>
     
     <li>
-        <a href="https://www.flysnow.org/posts/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
+        <a href="/posts/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
     </li>
     
     <li>
-        <a href="https://www.flysnow.org/posts/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
+        <a href="/posts/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
     </li>
     
 </ul>
     </section>
 
     
-<section class="widget">
-    <h3 class="widget-title" style="color:red">福利派送</h3>
-    <ul class="widget-list">
-        
-        <li>
-            <a href="https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&amp;share_source=copy_link" title="【2019双12】ALL IN CLoud 低至1折" target="_blank" style="color:red">
-                
-                    <img src="https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg">
-                
-            </a>
-        </li>
-        
-        <li>
-            <a href="https://cloud.tencent.com/act/cps/redirect?redirect=1048&amp;cps_key=14ff722692ac784fa8c3301c8c28d924&amp;from=console" title="助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！" target="_blank" style="color:red">
-                
-                    <img src="https://upload-dianshi-1255598498.file.myqcloud.com/345-7c71532bd4935fbdd9a67c1a71e577b1767b805c.200%E7%89%88%E6%9C%ACB.jpg">
-                
-            </a>
-        </li>
-        
-        <li>
-            <a href="https://www.aliyun.com/acts/limit-buy?userCode=jdg9oj97" title="【渠道专享低折扣】11月特惠 限时2折" target="_blank" style="color:red">
-                
-                    <img src="https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg">
-                
-            </a>
-        </li>
-        
-    </ul>
-</section>
-
 
     <section class="widget">
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.flysnow.org/categories/k8s/">k8s (1)</a></li>
+    <li><a href="/categories/k8s/">k8s (1)</a></li>
     
-    <li><a href="https://www.flysnow.org/categories/soft/">soft (1)</a></li>
+    <li><a href="/categories/soft/">soft (1)</a></li>
     
-    <li><a href="https://www.flysnow.org/categories/tools/">tools (1)</a></li>
+    <li><a href="/categories/tools/">tools (1)</a></li>
     
-    <li><a href="https://www.flysnow.org/categories/%E5%AE%89%E5%85%A8/">安全 (2)</a></li>
+    <li><a href="/categories/%E5%AE%89%E5%85%A8/">安全 (2)</a></li>
     
 </ul>
     </section>
@@ -511,50 +449,35 @@ main
         <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
-    <a href="https://www.flysnow.org/tags/django/">django</a>
+    <a href="/tags/django/">django</a>
     
-    <a href="https://www.flysnow.org/tags/docker/">docker</a>
+    <a href="/tags/docker/">docker</a>
     
-    <a href="https://www.flysnow.org/tags/k8s/">k8s</a>
+    <a href="/tags/k8s/">k8s</a>
     
-    <a href="https://www.flysnow.org/tags/linux/">linux</a>
+    <a href="/tags/linux/">linux</a>
     
-    <a href="https://www.flysnow.org/tags/nfs/">nfs</a>
+    <a href="/tags/nfs/">nfs</a>
     
-    <a href="https://www.flysnow.org/tags/%E5%AE%89%E5%85%A8/">安全</a>
+    <a href="/tags/%E5%AE%89%E5%85%A8/">安全</a>
     
-    <a href="https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/">网络安全</a>
+    <a href="/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/">网络安全</a>
     
-    <a href="https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/">网络安全手册</a>
+    <a href="/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/">网络安全手册</a>
     
-    <a href="https://www.flysnow.org/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/">防勒索</a>
+    <a href="/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/">防勒索</a>
     
-    <a href="https://www.flysnow.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/">防数据勒索</a>
+    <a href="/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/">防数据勒索</a>
     
 </div>
     </section>
 
     
-<section class="widget">
-    <h3 class="widget-title">友情链接</h3>
-    <ul class="widget-list">
-        
-        <li>
-            <a target="_blank" href="https://www.flysnow.org/" title="飞雪无情的博客">飞雪无情的博客</a>
-        </li>
-        
-        <li>
-            <a target="_blank" href="http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e" title="Android Gradle权威指南">Android Gradle权威指南</a>
-        </li>
-        
-    </ul>
-</section>
-
 
     <section class="widget">
         <h3 class="widget-title">其它</h3>
         <ul class="widget-list">
-            <li><a href="https://www.flysnow.org/index.xml">文章 RSS</a></li>
+            <li><a href="/index.xml">文章 RSS</a></li>
         </ul>
     </section>
 </div>
