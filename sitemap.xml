@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/2022/09/08/dnsmasq.html</loc>
-    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
@@ -12,6 +9,9 @@
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
     <loc>/tags/dnsmasq/</loc>
+    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
+  </url><url>
+    <loc>/posts/2022/09/08/dnsmasq.html</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
     <loc>/tags/docker/</loc>
