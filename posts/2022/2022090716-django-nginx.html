@@ -101,14 +101,14 @@
 #配置 80 跳转 443
 server {
   listen 80;
-  server_name huashengshu.top;
+  server_name flyhu.org www.flyhu.org;
   rewrite ^(.*)$ https://${server_name}$1 permanent;
 }
 
  #配置80端口
 server {
         listen       80;
-        server_name  _ dns.zysncp.com;
+        server_name  flyhu.org www.flyhu.org;
         #root         /usr/share/nginx/html;
         location ^~ /static/ {
           alias /opt/dnsmasq-web/static/;
@@ -122,7 +122,7 @@ server {
 #配置443端口
 server {
         listen       443 ssl http2 default_server;
-        server_name  _ dns.zysncp.com;
+        server_name  flyhu.org www.flyhu.org;
         #root         /usr/share/nginx/html;
         ssl_certificate &#34;ssl/server_ssl.crt&#34;;
         ssl_certificate_key &#34;ssl/server_ssl.key&#34;;
