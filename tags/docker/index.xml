@@ -13,7 +13,7 @@
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
       <guid>/posts/2022/2022-9-2-install-docker.html</guid>
-      <description>安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint</description>
+      <description>安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint 0EBFCD88 src=&amp;#34;deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian jessie stable&amp;#34;</description>
     </item>
     
   </channel>

@@ -100,7 +100,7 @@
         </div>
         
         <div class="post-content">
-            安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &#34;&gt;&gt; Install Docker&#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &#34;&gt;&gt; Install Docker&#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint……
+            安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &#34;&gt;&gt; Install Docker&#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &#34;&gt;&gt; Install Docker&#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint 0EBFCD88 src=&#34;deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian jessie stable&#34;……
             <p class="readmore"><a href="/posts/2022/2022-9-2-install-docker.html">阅读全文</a></p>
         </div>
     </article>
