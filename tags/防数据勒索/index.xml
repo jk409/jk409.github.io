@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>防数据勒索 on 网中维</title>
-    <link>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
-    <description>Recent content in 防数据勒索 on 网中维</description>
+    <title>防数据勒索 on 飞雪无情的博客</title>
+    <link>https://www.flysnow.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
+    <description>Recent content in 防数据勒索 on 飞雪无情的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 01 Sep 2022 17:31:20 +0800</lastBuildDate><atom:link href="/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 17:31:20 +0800</lastBuildDate><atom:link href="https://www.flysnow.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>防数据勒索</title>
-      <link>/posts/2022/9/2/safe.html</link>
+      <link>https://www.flysnow.org/posts/2022/9/2/safe.html</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>/posts/2022/9/2/safe.html</guid>
-      <description>端口：135、139、138、137和445 使用系统防火墙、安全策略 或 第三方安全软件（火绒 、360安全软件），屏蔽以上tcp和udp端口 点击</description>
+      <guid>https://www.flysnow.org/posts/2022/9/2/safe.html</guid>
+      <description>端口：135、139、138、137和445 使用系统防火墙、安全策略 或 第三方安全软件（火绒 、360安全软件），屏蔽以上tcp和udp端口 点击后面：防数据勒索 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat</description>
     </item>
     
   </channel>

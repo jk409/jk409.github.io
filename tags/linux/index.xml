@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on 网中维</title>
-    <link>/tags/linux/</link>
-    <description>Recent content in linux on 网中维</description>
+    <title>linux on 飞雪无情的博客</title>
+    <link>https://www.flysnow.org/tags/linux/</link>
+    <description>Recent content in linux on 飞雪无情的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Sep 2022 11:29:31 +0800</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 11:29:31 +0800</lastBuildDate><atom:link href="https://www.flysnow.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装 NFS</title>
-      <link>/posts/2022/9/7/install-nfs.html</link>
+      <link>https://www.flysnow.org/posts/2022/9/7/install-nfs.html</link>
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
-      <guid>/posts/2022/9/7/install-nfs.html</guid>
-      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu</description>
+      <guid>https://www.flysnow.org/posts/2022/9/7/install-nfs.html</guid>
+      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifubao 微信-wechat</description>
     </item>
     
   </channel>

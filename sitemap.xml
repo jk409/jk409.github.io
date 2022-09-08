@@ -2,86 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/django/</loc>
+    <loc>https://www.flysnow.org/tags/django/</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/2022090716-django-nginx.html</loc>
+    <loc>https://www.flysnow.org/posts/2022/2022090716-django-nginx.html</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://www.flysnow.org/posts/</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://www.flysnow.org/tags/</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://www.flysnow.org/</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/7/gproxy.html</loc>
+    <loc>https://www.flysnow.org/posts/2022/9/7/gproxy.html</loc>
     <lastmod>2022-09-07T14:13:16+08:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://www.flysnow.org/categories/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
+    <loc>https://www.flysnow.org/tags/linux/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
-    <loc>/tags/nfs/</loc>
+    <loc>https://www.flysnow.org/tags/nfs/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
-    <loc>/categories/soft/</loc>
+    <loc>https://www.flysnow.org/categories/soft/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/7/install-nfs.html</loc>
+    <loc>https://www.flysnow.org/posts/2022/9/7/install-nfs.html</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
-    <loc>/tags/docker/</loc>
+    <loc>https://www.flysnow.org/tags/docker/</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
-    <loc>/tags/k8s/</loc>
+    <loc>https://www.flysnow.org/tags/k8s/</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
-    <loc>/categories/k8s/</loc>
+    <loc>https://www.flysnow.org/categories/k8s/</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/2022-9-2-install-docker.html</loc>
+    <loc>https://www.flysnow.org/posts/2022/2022-9-2-install-docker.html</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://www.flysnow.org/tags/%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/categories/%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://www.flysnow.org/categories/%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</loc>
+    <loc>https://www.flysnow.org/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</loc>
+    <loc>https://www.flysnow.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/2/safe.html</loc>
+    <loc>https://www.flysnow.org/posts/2022/9/2/safe.html</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://www.flysnow.org/about/</loc>
     <lastmod>2022-09-01T09:13:27+00:00</lastmod>
   </url><url>
-    <loc>/categories/tools/</loc>
+    <loc>https://www.flysnow.org/categories/tools/</loc>
     <lastmod>2022-09-01T15:37:12+08:00</lastmod>
   </url><url>
-    <loc>/tools/</loc>
+    <loc>https://www.flysnow.org/tools/</loc>
     <lastmod>2022-09-01T15:37:12+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-09-01T12:31:20+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</loc>
+    <loc>https://www.flysnow.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</loc>
     <lastmod>2022-09-01T12:31:20+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/2/anqian.html</loc>
+    <loc>https://www.flysnow.org/posts/2022/9/2/anqian.html</loc>
     <lastmod>2022-09-01T12:31:20+08:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://www.flysnow.org/archives/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://www.flysnow.org/search/</loc>
   </url>
 </urlset>
