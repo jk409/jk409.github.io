@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 飞雪无情的博客</title>
-    <link>https://www.flysnow.org/posts/</link>
-    <description>Recent content in Posts on 飞雪无情的博客</description>
+    <title>Posts on 网中维</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Sep 2022 16:12:41 +0800</lastBuildDate><atom:link href="https://www.flysnow.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 16:12:41 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django Nginx</title>
-      <link>https://www.flysnow.org/posts/2022/2022090716-django-nginx.html</link>
+      <link>/posts/2022/2022090716-django-nginx.html</link>
       <pubDate>Wed, 07 Sep 2022 16:12:41 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/posts/2022/2022090716-django-nginx.html</guid>
-      <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name flyhu.org www.flyhu.org; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name flyhu.org www.flyhu.org; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex off; expires 7d; } location / { proxy_pass http://127.0.0.1:8000; } } #配置443端口 server { listen 443 ssl http2 default_server; server_name flyhu.org www.flyhu.org; #root /usr/share/nginx/html; ssl_certificate &amp;#34;ssl/server_ssl.crt&amp;#34;; ssl_certificate_key &amp;#34;ssl/server_ssl.key&amp;#34;; ssl_session_cache shared:SSL:1m; ssl_session_timeout 10m; #ssl_ciphers PROFILE=SYSTEM; ssl_prefer_server_ciphers on; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex off; expires 7d; } location / { proxy_pass http://127.0.0.1:8000; } } 结尾 若对你有帮助，</description>
+      <guid>/posts/2022/2022090716-django-nginx.html</guid>
+      <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name flyhu.org www.flyhu.org; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name flyhu.org www.flyhu.org; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex</description>
     </item>
     
     <item>
       <title>Gproxy</title>
-      <link>https://www.flysnow.org/posts/2022/9/7/gproxy.html</link>
+      <link>/posts/2022/9/7/gproxy.html</link>
       <pubDate>Wed, 07 Sep 2022 14:13:16 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/posts/2022/9/7/gproxy.html</guid>
-      <description>gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t tls -p &amp;#34;:12580&amp;#34; -T tls -P &amp;#34;103.97.3.216:12590&amp;#34; -C proxy.crt -K proxy.key --daemon # webproc ./webproc -u admin --pass 123456 -h 127.0.0.1 -p 8080 -c ./config.txt -- ./proxy @config.txt 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifubao 微信-wechat</description>
+      <guid>/posts/2022/9/7/gproxy.html</guid>
+      <description>gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t tls -p &amp;#34;:12580&amp;#34; -T tls -P &amp;#34;103.97.3.216:12590&amp;#34; -C proxy.crt -K proxy.key --daemon # webproc ./webproc -u admin --pass 123456 -h 127.0.0.1 -p 8080 -c ./config.txt -- ./proxy @config.txt 结尾 若对你有帮助，不介意打赏支持一</description>
     </item>
     
     <item>
       <title>安装 NFS</title>
-      <link>https://www.flysnow.org/posts/2022/9/7/install-nfs.html</link>
+      <link>/posts/2022/9/7/install-nfs.html</link>
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/posts/2022/9/7/install-nfs.html</guid>
-      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifubao 微信-wechat</description>
+      <guid>/posts/2022/9/7/install-nfs.html</guid>
+      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu</description>
     </item>
     
     <item>
       <title>安装 Docker</title>
-      <link>https://www.flysnow.org/posts/2022/2022-9-2-install-docker.html</link>
+      <link>/posts/2022/2022-9-2-install-docker.html</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/posts/2022/2022-9-2-install-docker.html</guid>
-      <description>安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint 0EBFCD88 src=&amp;#34;deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian jessie stable&amp;#34; echo $src &amp;gt; /etc/apt/sources.list.d/docker.list apt update apt install -y docker-ce } function config_docker { mkdir -p /etc/docker/ cp $BASE_DIR/docker/daemon.json /etc/docker/daemon.json } function start_docker { systemctl start docker systemctl enable docker } function main { which docker &amp;gt;/dev/null 2&amp;gt;&amp;amp;1 if [ $? -ne 0 ];then install_docker fi if [ ! -f &amp;#34;/etc/docker/daemon.json&amp;#34; ]; then config_docker fi if [ ! &amp;#34;$(systemctl status docker | grep Active</description>
+      <guid>/posts/2022/2022-9-2-install-docker.html</guid>
+      <description>安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint 0EBFCD88 src=&amp;#34;deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian jessie stable&amp;#34;</description>
     </item>
     
     <item>
       <title>防数据勒索</title>
-      <link>https://www.flysnow.org/posts/2022/9/2/safe.html</link>
+      <link>/posts/2022/9/2/safe.html</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/posts/2022/9/2/safe.html</guid>
-      <description>端口：135、139、138、137和445 使用系统防火墙、安全策略 或 第三方安全软件（火绒 、360安全软件），屏蔽以上tcp和udp端口 点击后面：防数据勒索 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat</description>
+      <guid>/posts/2022/9/2/safe.html</guid>
+      <description>端口：135、139、138、137和445 使用系统防火墙、安全策略 或 第三方安全软件（火绒 、360安全软件），屏蔽以上tcp和udp端口 点击</description>
     </item>
     
     <item>
       <title>网络安全科普手册</title>
-      <link>https://www.flysnow.org/posts/2022/9/2/anqian.html</link>
+      <link>/posts/2022/9/2/anqian.html</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>https://www.flysnow.org/posts/2022/9/2/anqian.html</guid>
+      <guid>/posts/2022/9/2/anqian.html</guid>
       <description>网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat</description>
     </item>
     
