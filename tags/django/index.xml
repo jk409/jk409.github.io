@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 07 Sep 2022 16:12:41 +0800</lastBuildDate><atom:link href="/tags/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Django Nginx</title>
-      <link>/posts/2022/2022090716-django-nginx.html</link>
+      <link>/posts/2022/09/07/django-nginx.html</link>
       <pubDate>Wed, 07 Sep 2022 16:12:41 +0800</pubDate>
       
-      <guid>/posts/2022/2022090716-django-nginx.html</guid>
+      <guid>/posts/2022/09/07/django-nginx.html</guid>
       <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代</description>
     </item>
     
