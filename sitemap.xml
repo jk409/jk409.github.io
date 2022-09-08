@@ -14,6 +14,9 @@
     <loc>/tags/dnsmasq/</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
@@ -43,9 +46,6 @@
   </url><url>
     <loc>/posts/2022/9/7/install-nfs.html</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
-  </url><url>
-    <loc>/tags/docker/</loc>
-    <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
     <loc>/tags/k8s/</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
