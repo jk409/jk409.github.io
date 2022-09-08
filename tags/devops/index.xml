@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on 网中维</title>
+    <link>/tags/devops/</link>
+    <description>Recent content in devops on 网中维</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 01 Sep 2022 15:37:12 +0800</lastBuildDate><atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用软件工具</title>
+      <link>/tools/</link>
+      <pubDate>Thu, 01 Sep 2022 15:37:12 +0800</pubDate>
+      
+      <guid>/tools/</guid>
+      <description>devops / 1 2 3 4 GIT gitlab gogs gitea CICD jekins gopub gokins AUTO ansible saltstack K3S ranche K8S kubeoperator kubekey eggo kuboard-spray KUBE-UI</description>
+    </item>
+    
+  </channel>
+</rss>
