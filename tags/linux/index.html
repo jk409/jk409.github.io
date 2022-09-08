@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-	<meta name="generator" content="Hugo 0.101.0" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,17 +9,21 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>网中维 | 专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构</title>
-    <meta property="og:title" content="网中维 | 专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构">
-    <meta property="og:type" content="website">
+    <title>linux | 网中维</title>
+    <meta property="og:title" content="linux - 网中维">
+    <meta property="og:type" content="article">
+        
+        
     <meta name="Keywords" content="golang,go语言,go语言笔记,网中维,shell,python,k8s,博客,项目管理,软件架构">
-    <meta name="description" content="专注于IT互联网，包括但不限于Go语言(golang)、Java、Android、Python、项目管理、抖音分析、软件架构等">
-    <meta property="og:url" content="/">
+    <meta name="description" content="linux">
+        
+    <meta name="author" content="网中维">
+    <meta property="og:url" content="/tags/linux/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
     <link rel="stylesheet" href='/css/style.css'>
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="网中维" />
+    <link rel="alternate" type="application/rss+xml" href="/tags/linux/index.xml" title="网中维" />
     <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
@@ -41,11 +44,9 @@
         <div class="col-group">
             <div class="site-name ">
                 
-                    <h1>
-                        <a id="logo" href="/">
-                            网中维
-                        </a>
-                    </h1>
+                    <a id="logo" href="/">
+                        网中维
+                    </a>
                 
                 <p class="description">专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构</p>
             </div>
@@ -53,7 +54,7 @@
 
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="current" href="/">首页</a>
+                    <a class="" href="/">首页</a>
                     
                     <a  href="/archives/" title="归档">归档</a>
                     
@@ -75,142 +76,38 @@
                     
 <div class="res-cons">
     
+    <h3 class="archive-title">
+        包含标签
+        <span class="keyword">linux</span>
+        的文章
+    </h3>
+    
+
     
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="/posts/2022/2022090716-django-nginx.html" title="Django Nginx">Django Nginx</a>
+                <a href="/posts/2022/9/7/install-nfs.html">安装 NFS</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
             2022年9月7日
         </date>
         
-        <div class="post-content">
-            django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name flyhu.org www.flyhu.org; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name flyhu.org www.flyhu.org; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex……
-        </div>
-        <p class="readmore"><a href="/posts/2022/2022090716-django-nginx.html">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="/posts/2022/9/7/gproxy.html" title="Gproxy">Gproxy</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2022年9月7日
-        </date>
-        
-        <div class="post-content">
-            gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t tls -p &#34;:12580&#34; -T tls -P &#34;103.97.3.216:12590&#34; -C proxy.crt -K proxy.key --daemon # webproc ./webproc -u admin --pass 123456 -h 127.0.0.1 -p 8080 -c ./config.txt -- ./proxy @config.txt 结尾 若对你有帮助，不介意打赏支持一……
-        </div>
-        <p class="readmore"><a href="/posts/2022/9/7/gproxy.html">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="/posts/2022/9/7/install-nfs.html" title="安装 NFS">安装 NFS</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2022年9月7日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
+        <div class="post-meta meta-category">
+            |
             
-            <span class="meta-category"><a href='/categories/soft'>soft</a></span>
+            <a href='/categories/soft'>soft</a>
             
         </div>
         
         <div class="post-content">
             安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu……
+            <p class="readmore"><a href="/posts/2022/9/7/install-nfs.html">阅读全文</a></p>
         </div>
-        <p class="readmore"><a href="/posts/2022/9/7/install-nfs.html">阅读全文</a></p>
     </article>
     
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="/posts/2022/2022-9-2-install-docker.html" title="安装 Docker">安装 Docker</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2022年9月2日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='/categories/k8s'>k8s</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            安装docker,流程如下： #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &#34;&gt;&gt; Install Docker&#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &#34;&gt;&gt; Install Docker&#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint……
-        </div>
-        <p class="readmore"><a href="/posts/2022/2022-9-2-install-docker.html">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="/posts/2022/9/2/safe.html" title="防数据勒索">防数据勒索</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2022年9月1日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='/categories/%E5%AE%89%E5%85%A8'>安全</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            端口：135、139、138、137和445 使用系统防火墙、安全策略 或 第三方安全软件（火绒 、360安全软件），屏蔽以上tcp和udp端口 点击……
-        </div>
-        <p class="readmore"><a href="/posts/2022/9/2/safe.html">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="/posts/2022/9/2/anqian.html" title="网络安全科普手册">网络安全科普手册</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2022年9月1日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='/categories/%E5%AE%89%E5%85%A8'>安全</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat……
-        </div>
-        <p class="readmore"><a href="/posts/2022/9/2/anqian.html">阅读全文</a></p>
-    </article>
-    
-    
+
     
 
 
