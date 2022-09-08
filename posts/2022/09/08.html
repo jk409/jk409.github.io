@@ -208,8 +208,8 @@
             <h2 id="下载dnsmasq-镜像">下载dnsmasq 镜像</h2>
 <pre tabindex="0"><code>sudo docker pull jpillora/dnsmasq:latest
 </code></pre><h2 id="配置文件dnsmasqconf">配置文件dnsmasq.conf</h2>
-<pre tabindex="0"><code>#配置一,单文件
-#cat /opt/dnsmasq.conf
+<p>配置一,单文件</p>
+<pre tabindex="0"><code>#cat /opt/dnsmasq.conf
 log-queries
 no-resolv
 #按顺序向上游DNS请求域名解析
@@ -224,8 +224,8 @@ address=/jk409.github.io/127.0.0.1
 
 #conf-dir=/etc/dnsmasq.d/,*.conf
 #log-facility=/var/log/dnsmasq.log
-</code></pre><pre tabindex="0"><code>#配置二,多文件
-#cat /opt/dnsmasq.conf
+</code></pre><p>配置二,多文件</p>
+<pre tabindex="0"><code>#cat /opt/dnsmasq.conf
 port=53
 resolv-file=/etc/resolv.dnsmasq.conf
 strict-order
@@ -235,8 +235,8 @@ conf-dir=/etc/dnsmasq.d/,*.conf
 #log-queries
 #log-facility=/var/log/dnsmasq/dnsmasq.log
 </code></pre><h2 id="运行">运行</h2>
-<pre tabindex="0"><code>#推荐使用单文件配置一
-#sudo docker run -d --name dnsmasq \
+<p>推荐使用单文件配置一</p>
+<pre tabindex="0"><code>#sudo docker run -d --name dnsmasq \
     -p 127.0.0.1:53:53/udp \
     -p 127.0.0.1:53:53/tcp \
     -p 127.0.0.1:8080:8080/tcp \
