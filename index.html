@@ -77,6 +77,24 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="/posts/2022/09/08.html" title="20220908 Dnsmasq">20220908 Dnsmasq</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月8日
+        </date>
+        
+        <div class="post-content">
+            下载dnsmasq 镜像 sudo docker pull jpillora/dnsmasq:latest 配置文件dnsmasq.conf #配置一,单文件 #cat /opt/dnsmasq.conf log-queries no-resolv #按顺序向上游DNS请求域名解析 strict-order server=114.114.114.114 server=223.5.5.5 server=8.8.8.8 server=/flyhu.org/114.114.114.114 #------------ address=/github.io/185.199.109.153 address=/jk409.github.io/127.0.0.1 #conf-dir=/etc/dnsmasq.d/,*.conf #log-facility=/var/log/dnsmasq.log #……
+        </div>
+        <p class="readmore"><a href="/posts/2022/09/08.html">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="/posts/2022/2022090716-django-nginx.html" title="Django Nginx">Django Nginx</a>
             </h1>
         </header>
@@ -228,7 +246,7 @@
             <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
         </div>
         <div class="github-badge">
-            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+            <a href="https://www.flyhu.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">网中维</span></a>
         </div>
         <div class="github-badge">
             <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
@@ -262,6 +280,10 @@
     <section class="widget">
         <h3 class="widget-title">最近文章</h3>
 <ul class="widget-list">
+    
+    <li>
+        <a href="/posts/2022/09/08.html" title="20220908 Dnsmasq">20220908 Dnsmasq</a>
+    </li>
     
     <li>
         <a href="/posts/2022/2022090716-django-nginx.html" title="Django Nginx">Django Nginx</a>
