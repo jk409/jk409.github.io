@@ -13,7 +13,7 @@
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
       <guid>/posts/2022/9/7/install-nfs.html</guid>
-      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu</description>
+      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安</description>
     </item>
     
   </channel>

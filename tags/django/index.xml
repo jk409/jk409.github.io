@@ -13,7 +13,7 @@
       <pubDate>Wed, 07 Sep 2022 16:12:41 +0800</pubDate>
       
       <guid>/posts/2022/2022090716-django-nginx.html</guid>
-      <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name flyhu.org www.flyhu.org; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name flyhu.org www.flyhu.org; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex</description>
+      <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代</description>
     </item>
     
   </channel>

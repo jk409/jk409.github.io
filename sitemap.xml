@@ -5,7 +5,22 @@
     <loc>/posts/2022/09/08.html</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
+  </url><url>
+    <loc>/tags/dns/</loc>
+    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
+  </url><url>
+    <loc>/tags/dnsmasq/</loc>
+    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
+    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
+  </url><url>
+    <loc>/categories/soft/</loc>
+    <lastmod>2022-09-08T09:46:48+08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -17,22 +32,13 @@
     <loc>/posts/2022/2022090716-django-nginx.html</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-09-07T16:12:41+08:00</lastmod>
-  </url><url>
     <loc>/posts/2022/9/7/gproxy.html</loc>
     <lastmod>2022-09-07T14:13:16+08:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
     <loc>/tags/linux/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
     <loc>/tags/nfs/</loc>
-    <lastmod>2022-09-07T11:29:31+08:00</lastmod>
-  </url><url>
-    <loc>/categories/soft/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
     <loc>/posts/2022/9/7/install-nfs.html</loc>

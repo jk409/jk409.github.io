@@ -6,7 +6,25 @@
     <description>Recent content in Tags on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Sep 2022 16:12:41 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Sep 2022 09:46:48 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dns</title>
+      <link>/tags/dns/</link>
+      <pubDate>Thu, 08 Sep 2022 09:46:48 +0800</pubDate>
+      
+      <guid>/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dnsmasq</title>
+      <link>/tags/dnsmasq/</link>
+      <pubDate>Thu, 08 Sep 2022 09:46:48 +0800</pubDate>
+      
+      <guid>/tags/dnsmasq/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>django</title>
       <link>/tags/django/</link>

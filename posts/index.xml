@@ -13,7 +13,7 @@
       <pubDate>Thu, 08 Sep 2022 09:46:48 +0800</pubDate>
       
       <guid>/posts/2022/09/08.html</guid>
-      <description>下载dnsmasq 镜像 sudo docker pull jpillora/dnsmasq:latest 配置文件dnsmasq.conf 配置一,单文件 #cat /opt/dnsmasq.conf log-queries no-resolv #按顺序向上游DNS请求域名解析 strict-order server=114.114.114.114 server=223.5.5.5 server=8.8.8.8 server=/flyhu.org/114.114.114.114 #------------ address=/github.io/185.199.109.153 address=/jk409.github.io/127.0.0.1 #conf-dir=/etc/dnsmasq.d/,*.conf #log-facility=/var/log/dnsmasq.log 配置</description>
+      <description>下载dnsmasq 镜像 sudo docker pull jpillora/dnsmasq:latest 配置文件dnsmas</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Wed, 07 Sep 2022 16:12:41 +0800</pubDate>
       
       <guid>/posts/2022/2022090716-django-nginx.html</guid>
-      <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代理设置 #配置 80 跳转 443 server { listen 80; server_name flyhu.org www.flyhu.org; rewrite ^(.*)$ https://${server_name}$1 permanent; } #配置80端口 server { listen 80; server_name flyhu.org www.flyhu.org; #root /usr/share/nginx/html; location ^~ /static/ { alias /opt/dnsmasq-web/static/; autoindex</description>
+      <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       <pubDate>Wed, 07 Sep 2022 14:13:16 +0800</pubDate>
       
       <guid>/posts/2022/9/7/gproxy.html</guid>
-      <description>gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t tls -p &amp;#34;:12580&amp;#34; -T tls -P &amp;#34;103.97.3.216:12590&amp;#34; -C proxy.crt -K proxy.key --daemon # webproc ./webproc -u admin --pass 123456 -h 127.0.0.1 -p 8080 -c ./config.txt -- ./proxy @config.txt 结尾 若对你有帮助，不介意打赏支持一</description>
+      <description>gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
       <guid>/posts/2022/9/7/install-nfs.html</guid>
-      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安装，client yum install -y nfs-utils mkdir -p /data mount 192.168.26.70:/data /data 结尾 若对你有帮助，不介意打赏支持一下 支付宝-zhifu</description>
+      <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
       <guid>/posts/2022/2022-9-2-install-docker.html</guid>
-      <description>安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data lvm2 } function install_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; prepare_install yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo rpm --import https://mirrors.aliyun.com/docker-ce/linux/centos/gpg yum install -y docker-ce } function install_apt_docker() { echo &amp;#34;&amp;gt;&amp;gt; Install Docker&amp;#34; #prepare_install curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add - apt-key fingerprint 0EBFCD88 src=&amp;#34;deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/debian jessie stable&amp;#34;</description>
+      <description>安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
       <guid>/posts/2022/9/2/safe.html</guid>
-      <description>端口：135、139、138、137和445 使用系统防火墙、安全策略 或 第三方安全软件（火绒 、360安全软件），屏蔽以上tcp和udp端口 点击</description>
+      <description>端口：135、139、138、137和445 使用系</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
       <guid>/posts/2022/9/2/anqian.html</guid>
-      <description>网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支付宝-zhifubao 微信-wechat</description>
+      <description>网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支</description>
     </item>
     
   </channel>
