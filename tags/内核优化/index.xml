@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>内核优化 on 网中维</title>
+    <link>/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</link>
+    <description>Recent content in 内核优化 on 网中维</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 14 Sep 2022 08:45:28 +0800</lastBuildDate><atom:link href="/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>sysctl_内核优化</title>
+      <link>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</link>
+      <pubDate>Wed, 14 Sep 2022 08:45:28 +0800</pubDate>
+      
+      <guid>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</guid>
+      <description>内核优化详解 net.ipv4.tcp_keepalive_time=600 #此参数表示TCP发送keepali</description>
+    </item>
+    
+  </channel>
+</rss>

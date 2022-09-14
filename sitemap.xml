@@ -2,17 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2022-09-14T08:45:28+08:00</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2022-09-14T08:45:28+08:00</lastmod>
+  </url><url>
+    <loc>/categories/linux/</loc>
+    <lastmod>2022-09-14T08:45:28+08:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
+    <lastmod>2022-09-14T08:45:28+08:00</lastmod>
+  </url><url>
+    <loc>/tags/sysctl/</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
     <loc>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>/tags/</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2022-09-14T08:38:06+08:00</lastmod>
+    <loc>/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2022-09-14T08:45:28+08:00</lastmod>
+  </url><url>
+    <loc>/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2022-09-14T08:45:28+08:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
     <loc>/posts/2022/09/14/install_nexus.html</loc>
     <lastmod>2022-09-14T08:38:06+08:00</lastmod>
@@ -27,9 +45,6 @@
     <lastmod>2022-09-14T08:38:06+08:00</lastmod>
   </url><url>
     <loc>/categories/soft/</loc>
-    <lastmod>2022-09-14T08:38:06+08:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-09-14T08:38:06+08:00</lastmod>
   </url><url>
     <loc>/posts/2022/09/14/install_rancher.html</loc>
@@ -64,9 +79,6 @@
   </url><url>
     <loc>/posts/2022/9/7/gproxy.html</loc>
     <lastmod>2022-09-07T14:13:16+08:00</lastmod>
-  </url><url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
     <loc>/tags/nfs/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
