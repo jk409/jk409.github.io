@@ -10,10 +10,10 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     
 
-    <title>网中维 | 专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构</title>
-    <meta property="og:title" content="网中维 | 专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构">
+    <title>网中维 | 专注于 Shell、Python、Go、k8s、devops、gitops、运维自动化、等保2.0、系统架构</title>
+    <meta property="og:title" content="网中维 | 专注于 Shell、Python、Go、k8s、devops、gitops、运维自动化、等保2.0、系统架构">
     <meta property="og:type" content="website">
-    <meta name="Keywords" content="golang,go语言,网中维,shell,python,k8s,博客,软件架构,系统架构">
+    <meta name="Keywords" content="golang,go语言,网中维,shell,python,k8s,devops,gitops,博客,软件架构,系统架构">
     <meta name="description" content="专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构">
     <meta property="og:url" content="/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
@@ -47,7 +47,7 @@
                         </a>
                     </h1>
                 
-                <p class="description">专注于 Shell、Python、Go、k8s、devops、运维自动化、等保2.0、系统架构</p>
+                <p class="description">专注于 Shell、Python、Go、k8s、devops、gitops、运维自动化、等保2.0、系统架构</p>
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
@@ -72,6 +72,74 @@
                 <div class="col-8" id="main">
                     
 <div class="res-cons">
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html" title="sysctl_内核优化">sysctl_内核优化</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月14日
+        </date>
+        
+        <div class="post-content">
+            内核优化详解 net.ipv4.tcp_keepalive_time=600 #此参数表示TCP发送keepali……
+        </div>
+        <p class="readmore"><a href="/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="/posts/2022/09/14/install_nexus.html" title="Install_nexus">Install_nexus</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月14日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/soft'>soft</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            下载镜像 docker pull registry.cn-qingdao.aliyuncs.com/kubeoperator/nexus3:3.25.0-amd64 或者 docker pull sonatype/nexus3 运行 #docker run -d --privileged --restart=unless-stopped \ -p 80:80 -p 443:443 rancher/rancher:v2.5.12……
+        </div>
+        <p class="readmore"><a href="/posts/2022/09/14/install_nexus.html">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="/posts/2022/09/14/install_rancher.html" title="Install_rancher">Install_rancher</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2022年9月14日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/k3s'>k3s</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            系统优化 yum install -y epel-release yum install -y yum-utils device-mapper-persistent-data lvm2 yum install -y ntpdate ntpdate cn.pool.ntp.org setenforce 0 sed -i &#34;s/^SELINUX=enforcing/SELINUX=disabled/g&#34;……
+        </div>
+        <p class="readmore"><a href="/posts/2022/09/14/install_rancher.html">阅读全文</a></p>
+    </article>
+    
     
     
     <article class="post">
@@ -178,7 +246,7 @@
         </div>
         
         <div class="post-content">
-            安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data……
+            安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &#34;$0&#34;) function prepare_install() { yum install -y epel-release yum……
         </div>
         <p class="readmore"><a href="/posts/2022/9/2/install-docker.html">阅读全文</a></p>
     </article>
@@ -289,6 +357,18 @@
 <ul class="widget-list">
     
     <li>
+        <a href="/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html" title="sysctl_内核优化">sysctl_内核优化</a>
+    </li>
+    
+    <li>
+        <a href="/posts/2022/09/14/install_nexus.html" title="Install_nexus">Install_nexus</a>
+    </li>
+    
+    <li>
+        <a href="/posts/2022/09/14/install_rancher.html" title="Install_rancher">Install_rancher</a>
+    </li>
+    
+    <li>
         <a href="/posts/2022/09/08/dnsmasq.html" title="Dnsmasq">Dnsmasq</a>
     </li>
     
@@ -325,9 +405,11 @@
         <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
+    <li><a href="/categories/k3s/">k3s (1)</a></li>
+    
     <li><a href="/categories/k8s/">k8s (1)</a></li>
     
-    <li><a href="/categories/soft/">soft (2)</a></li>
+    <li><a href="/categories/soft/">soft (3)</a></li>
     
     <li><a href="/categories/tools/">tools (1)</a></li>
     
@@ -350,11 +432,21 @@
     
     <a href="/tags/docker/">docker</a>
     
+    <a href="/tags/k3s/">k3s</a>
+    
     <a href="/tags/k8s/">k8s</a>
     
     <a href="/tags/linux/">linux</a>
     
+    <a href="/tags/nexus/">nexus</a>
+    
     <a href="/tags/nfs/">nfs</a>
+    
+    <a href="/tags/rancher/">rancher</a>
+    
+    <a href="/tags/repo/">repo</a>
+    
+    <a href="/tags/soft/">soft</a>
     
     <a href="/tags/tools/">tools</a>
     

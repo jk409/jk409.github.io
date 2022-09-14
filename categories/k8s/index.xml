@@ -13,7 +13,7 @@
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
       <guid>/posts/2022/9/2/install-docker.html</guid>
-      <description>安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y yum-utils device-mapper-persistent-data</description>
+      <description>安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y epel-release yum</description>
     </item>
     
   </channel>
