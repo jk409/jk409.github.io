@@ -6,7 +6,25 @@
     <description>Recent content in Tags on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Sep 2022 14:22:52 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 16:01:31 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pi</title>
+      <link>/tags/pi/</link>
+      <pubDate>Thu, 15 Sep 2022 16:01:31 +0800</pubDate>
+      
+      <guid>/tags/pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nas</title>
+      <link>/tags/nas/</link>
+      <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
+      
+      <guid>/tags/nas/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>server</title>
       <link>/tags/server/</link>
