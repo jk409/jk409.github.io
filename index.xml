@@ -6,7 +6,16 @@
     <description>Recent content on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Sep 2022 08:16:15 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 08:44:17 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20220915_music</title>
+      <link>/posts/2022/09/15/20220915_music.html</link>
+      <pubDate>Thu, 15 Sep 2022 08:44:17 +0800</pubDate>
+      
+      <guid>/posts/2022/09/15/20220915_music.html</guid>
+      <description>结尾 若对你有帮助，不介意打赏支持一下,您的支持是我</description>
+    </item>
+    
     <item>
       <title>监控宝_uptime_kuma</title>
       <link>/posts/2022/09/15/uptimeKuma.html</link>
