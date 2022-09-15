@@ -6,7 +6,16 @@
     <description>Recent content on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Sep 2022 08:45:28 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 08:16:15 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>监控宝_uptime_kuma</title>
+      <link>/posts/2022/09/15/uptimeKuma.html</link>
+      <pubDate>Thu, 15 Sep 2022 08:16:15 +0800</pubDate>
+      
+      <guid>/posts/2022/09/15/uptimeKuma.html</guid>
+      <description>简介 uptime-kuma[1]是一个花里胡哨的自</description>
+    </item>
+    
     <item>
       <title>sysctl_内核优化</title>
       <link>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</link>
