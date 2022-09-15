@@ -213,14 +213,15 @@
         
         <div class="post-content">
             <h2 id="简介">简介</h2>
-<p>uptime-kuma[1]是一个花里胡哨的自托管的网站监控工具，支持的功能也相对较为丰富：</p>
+<p><a href="https://uptime.kuma.pet/">uptime-kuma</a>[1]是一个花里胡哨的自托管的网站监控工具，支持的功能也相对较为丰富：</p>
 <p>监控HTTP(s)/TCP/HTTP(s)关键字/Ping/DNS记录/推送/Steam Game Server等的正常运行时间。</p>
 <p>支持丰富的通知渠道，如通过Telegram、Discord、Gotify、Slack、Pushover、电子邮件 (SMTP) 和70 多种通知服务发送通知，请单击此处查看完整列表[2]。</p>
 <p>20 second intervals.</p>
-<p>[支持多种语言](<a href="https://github.com/louislam/uptime-kuma/tree/master/src/languages">https://github.com/louislam/uptime-kuma/tree/master/src/languages</a> “languages”)</p>
+<p><a href="https://github.com/louislam/uptime-kuma/tree/master/src/languages">支持多种语言</a></p>
 <p>简洁的状态页面</p>
 <p>Ping图</p>
 <p>监控证书信息</p>
+<p>2FA支持</p>
 <p>&hellip;&hellip;</p>
 <h2 id="下载">下载</h2>
 <pre tabindex="0"><code>docker pull louislam/uptime-kuma:1
@@ -258,7 +259,8 @@ services:
     access_log  /www/wwwlogs/uptimestatus.log main;
     error_log /www/wwwlogs/uptimestatus.error.log;
 }
-</code></pre><h2 id="结尾">结尾</h2>
+</code></pre><p>#首次打开需要创建账号和密码</p>
+<h2 id="结尾">结尾</h2>
 <p>若对你有帮助，不介意打赏支持一下,您的支持是我前进的动力！！！</p>
 <table>
 <thead>
