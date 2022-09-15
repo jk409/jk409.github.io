@@ -142,8 +142,12 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#pi">pi</a></li>
+    <li><a href="#raspberry-pi">raspberry pi</a></li>
+    <li><a href="#换源sources">换源sources</a></li>
+    <li><a href="#换源pip">换源pip</a></li>
+    <li><a href="#安装中文字体">安装中文字体</a></li>
     <li><a href="#启用root-登录">启用root 登录</a></li>
+    <li><a href="#安装nas">安装NAS</a></li>
     <li><a href="#结尾">结尾</a></li>
   </ul>
 </nav>
@@ -209,36 +213,56 @@
         </div>
         
         <div class="post-content">
-            <h2 id="pi">pi</h2>
-<ol>
-<li>下载raspberry pi</li>
-</ol>
-<ul>
-<li><a href="https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf-lite.img.xz" title="debain 11 bullseye">命令行版本</a></li>
-<li><a href="https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf.img.xz" title="debian 11 bullseye">桌面版</a></li>
-<li><a href="https://downloads.raspberrypi.org/raspios_oldstable_lite_armhf/images/raspios_oldstable_lite_armhf-2022-09-07/2022-09-06-raspios-buster-armhf-lite.img.xz" title="debian 10 buster">命令行版本</a></li>
-</ul>
-<ol start="2">
-<li>把镜像写入SD存储卡里</li>
-<li>在sd卡根目录下，创建ssh空文件,开启ssh</li>
-</ol>
-<ul>
-<li>touch ssh</li>
-</ul>
-<ol start="4">
-<li>查看IP 地址，ssh登录</li>
-</ol>
-<ul>
-<li>ssh <a href="mailto:pi@x.x.x.x">pi@x.x.x.x</a> -p &ldquo;raspberry&rdquo;</li>
-</ul>
-<ol start="5">
-<li>默认账号密</li>
-</ol>
-<ul>
-<li>pi</li>
-<li>raspberry</li>
-</ul>
-<h2 id="启用root-登录">启用root 登录</h2>
+            <h2 id="raspberry-pi">raspberry pi</h2>
+<p>1.下载raspberry pi</p>
+<p><a href="https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf-lite.img.xz" title="debain 11 bullseye">命令行版本</a></p>
+<p><a href="https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf.img.xz" title="debian 11 bullseye">桌面版</a></p>
+<p><a href="https://downloads.raspberrypi.org/raspios_oldstable_lite_armhf/images/raspios_oldstable_lite_armhf-2022-09-07/2022-09-06-raspios-buster-armhf-lite.img.xz" title="debian 10 buster">命令行版本</a></p>
+<p>2.把镜像写入SD存储卡里</p>
+<p>3.在sd卡根目录下，创建ssh空文件,开启ssh
+<code>touch ssh</code></p>
+<p>4.查看IP 地址，ssh登录,默认账号密<code> pi  raspberry</code></p>
+<p><code>ssh pi@x.x.x.x -p &quot;raspberry</code></p>
+<h2 id="换源sources">换源sources</h2>
+<p>一键换源</p>
+<pre tabindex="0"><code>#中科大
+sudo sed -i &#39;s#://mirrordirector.raspbian.org#s://mirrors.ustc.edu.cn/raspbian#g&#39; /etc/apt/sources.list 
+sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://mirrors.ustc.edu.cn/archive.raspberrypi.org#g&#39; /etc/apt/sources.list.d/raspi.list
+
+#清华
+sudo sed -i &#39;s#://mirrordirector.raspbian.org#s://mirrors.tuna.tsinghua.edu.cn/raspbian#g&#39; /etc/apt/sources.list
+sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://mirrors.tuna.tsinghua.edu.cn/raspberrypi#g&#39; /etc/apt/sources.list.d/raspi.list
+</code></pre><p>1.备份配置</p>
+<pre tabindex="0"><code>sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo cp /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.bak
+</code></pre><p>2.配置sources.list</p>
+<p>Debian 10 buster</p>
+<pre tabindex="0"><code>cat &gt;/etc/apt/sources.list&lt;EOF
+deb http://mirrors.ustc.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
+deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ buster main contrib non-free rpi
+EOF
+</code></pre><p>Debian 11 bullseye</p>
+<pre tabindex="0"><code>cat &gt;/etc/apt/sources.list&lt;EOF
+deb http://mirrors.ustc.edu.cn/raspbian/raspbian/ bullseye main contrib non-free rpi
+deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ bullseye main contrib non-free rpi
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main contrib non-free rpi
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main contrib non-free rpi
+EOF
+</code></pre><p>3.更新系统</p>
+<pre tabindex="0"><code>sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo rpi-update
+</code></pre><h2 id="换源pip">换源pip</h2>
+<pre tabindex="0"><code>mkdir ~/.pip/
+cat &gt;  ~/.pip/pip.conf &lt;EOF
+[global]
+index-url = http://pypi.douban.com/simple/
+EOF
+</code></pre><h2 id="安装中文字体">安装中文字体</h2>
+<pre tabindex="0"><code>sudo apt-get install ttf-wqy-zenhei ttf-wqy-microhei
+sudo raspi-config
+</code></pre><h2 id="启用root-登录">启用root 登录</h2>
 <ol>
 <li>sudo passwd root</li>
 <li>编辑/etc/ssh/sshd_config文件,修改PermitRootLogin 为yes.</li>
@@ -248,7 +272,9 @@
 <li>sudo passwd root</li>
 <li>sudo passwd &ndash;unlock root</li>
 </ol>
-<h2 id="结尾">结尾</h2>
+<h2 id="安装nas">安装NAS</h2>
+<pre tabindex="0"><code>sudo curl -sSL https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+</code></pre><h2 id="结尾">结尾</h2>
 <p>若对你有帮助，不介意打赏支持一下,您的支持是我前进的动力！！！</p>
 <table>
 <thead>
