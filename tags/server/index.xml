@@ -6,7 +6,16 @@
     <description>Recent content in server on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Sep 2022 14:22:52 +0800</lastBuildDate><atom:link href="/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 16:01:31 +0800</lastBuildDate><atom:link href="/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>raspberry pi</title>
+      <link>/posts/2022/09/15/raspberry_pi.html</link>
+      <pubDate>Thu, 15 Sep 2022 16:01:31 +0800</pubDate>
+      
+      <guid>/posts/2022/09/15/raspberry_pi.html</guid>
+      <description>raspberry pi 1.下载raspberry pi 命令行版本 桌面版 命</description>
+    </item>
+    
     <item>
       <title>文件服务器</title>
       <link>/posts/2022/09/15/20220915_smb_server.html</link>

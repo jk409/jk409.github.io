@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/2022/09/15/20220915_pi.html</loc>
-    <lastmod>2022-09-15T16:01:31+08:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
@@ -17,6 +14,12 @@
     <loc>/posts/</loc>
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
+    <loc>/posts/2022/09/15/raspberry_pi.html</loc>
+    <lastmod>2022-09-15T16:01:31+08:00</lastmod>
+  </url><url>
+    <loc>/tags/server/</loc>
+    <lastmod>2022-09-15T16:01:31+08:00</lastmod>
+  </url><url>
     <loc>/tags/</loc>
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
@@ -24,9 +27,6 @@
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
     <loc>/tags/nas/</loc>
-    <lastmod>2022-09-15T14:22:52+08:00</lastmod>
-  </url><url>
-    <loc>/tags/server/</loc>
     <lastmod>2022-09-15T14:22:52+08:00</lastmod>
   </url><url>
     <loc>/tags/smb/</loc>
