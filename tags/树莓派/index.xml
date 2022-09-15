@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>树莓派 on 网中维</title>
+    <link>/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</link>
+    <description>Recent content in 树莓派 on 网中维</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 15 Sep 2022 16:01:31 +0800</lastBuildDate><atom:link href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>raspberry pi</title>
+      <link>/posts/2022/09/15/raspberry_pi.html</link>
+      <pubDate>Thu, 15 Sep 2022 16:01:31 +0800</pubDate>
+      
+      <guid>/posts/2022/09/15/raspberry_pi.html</guid>
+      <description>raspberry pi 1.下载raspberry pi 命令行版本 桌面版 命</description>
+    </item>
+    
+  </channel>
+</rss>
