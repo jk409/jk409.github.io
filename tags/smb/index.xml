@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>smb on 网中维</title>
+    <link>/tags/smb/</link>
+    <description>Recent content in smb on 网中维</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 15 Sep 2022 14:22:52 +0800</lastBuildDate><atom:link href="/tags/smb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文件服务器</title>
+      <link>/posts/2022/09/15/20220915_smb_server.html</link>
+      <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
+      
+      <guid>/posts/2022/09/15/20220915_smb_server.html</guid>
+      <description>官网 官网： https://www.openmediavault.org/ 社区： https://www.openmediavault.cn/ 仓库： https://github.com/openmediavault-Plugin-Developers 依赖系统 OMV 5.x on Debian 10 (Buster) OMV</description>
+    </item>
+    
+  </channel>
+</rss>

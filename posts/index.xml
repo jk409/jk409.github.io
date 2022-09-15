@@ -6,14 +6,23 @@
     <description>Recent content in Posts on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Sep 2022 08:44:17 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 14:22:52 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文件服务器</title>
+      <link>/posts/2022/09/15/20220915_smb_server.html</link>
+      <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
+      
+      <guid>/posts/2022/09/15/20220915_smb_server.html</guid>
+      <description>官网 官网： https://www.openmediavault.org/ 社区： https://www.openmediavault.cn/ 仓库： https://github.com/openmediavault-Plugin-Developers 依赖系统 OMV 5.x on Debian 10 (Buster) OMV</description>
+    </item>
+    
     <item>
       <title>20220915_music</title>
       <link>/posts/2022/09/15/20220915_music.html</link>
       <pubDate>Thu, 15 Sep 2022 08:44:17 +0800</pubDate>
       
       <guid>/posts/2022/09/15/20220915_music.html</guid>
-      <description>一 &amp;lt;iframe frameborder=&amp;#34;no&amp;#34; border=&amp;#34;0&amp;#34; marginwidth=&amp;#34;0&amp;#34; marginheight=&amp;#34;0&amp;#34; width=430 height=86 src=&amp;#34;//music.163.com/outchain/player?type=2&amp;amp;id=4980157066&amp;amp;auto=0&amp;amp;height=66&amp;#34;&amp;gt;&amp;lt;/iframe&amp;gt; 4 结尾 若对你有帮助，不介意打赏支</description>
+      <description>Sounds Like Somewhere dd 结尾 若对你有帮助，不介意打赏支持一下,您的</description>
     </item>
     
     <item>
