@@ -6,22 +6,40 @@
     <description>Recent content in Tags on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 10:08:45 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 14:49:23 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>nexus</title>
-      <link>/tags/nexus/</link>
-      <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
+      <title>frp</title>
+      <link>/tags/frp/</link>
+      <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/tags/nexus/</guid>
+      <guid>/tags/frp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proxy</title>
+      <link>/tags/proxy/</link>
+      <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
+      
+      <guid>/tags/proxy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>server</title>
       <link>/tags/server/</link>
-      <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
+      <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
       <guid>/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nexus</title>
+      <link>/tags/nexus/</link>
+      <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
+      
+      <guid>/tags/nexus/</guid>
       <description></description>
     </item>
     
