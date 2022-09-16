@@ -262,7 +262,10 @@ admin123
 <h2 id="nexus-仓库设置">Nexus 仓库设置</h2>
 <p>&hellip;&hellip;</p>
 <h2 id="linux客户端配置repo">Linux客户端配置repo</h2>
-<pre tabindex="0"><code>#cat /etc/yum.repos.d/kubeops.repo 
+<p>centos 配置repo</p>
+<pre tabindex="0"><code>#mkdir /etc/yum.repos.d/bak
+#mv /etc/yum.repos.d/*.repo  /etc/yum.repos.d/bak
+#cat /etc/yum.repos.d/kubeops.repo
 [Centos-Base]
 name=CentOS Base
 baseurl=http://172.20.2.90:8081/repository/centos-base/7/extras/$basearch/
@@ -284,6 +287,25 @@ baseurl=http://172.20.2.90:8081/repository/centos-epel/7/$basearch/
 enabled=1
 gpgcheck=0
 protect=1
+</code></pre><p>debian 10 buster 配置repo</p>
+<pre tabindex="0"><code>sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup 
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
+</code></pre><p>树莓派配置repo</p>
+<pre tabindex="0"><code>#清华
+sudo sed -i &#39;s#://mirrordirector.raspbian.org#s://mirrors.tuna.tsinghua.edu.cn/raspbian#g&#39; /etc/apt/sources.list
+sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://mirrors.tuna.tsinghua.edu.cn/raspberrypi#g&#39; /etc/apt/sources.list.d/raspi.list
+
+#私有仓库（http 和 https）
+sudo sed -i &#39;s#://mirrordirector.raspbian.org#s://172.20.2.90:8081/repository/raspbian#g&#39; /etc/apt/sources.list
+sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://172.20.2.90:8081/repository/raspberrypi#g&#39; /etc/apt/sources.list.d/raspi.list
 </code></pre><h2 id="结尾">结尾</h2>
 <p>若对你有帮助，不介意打赏支持一下</p>
 <table>

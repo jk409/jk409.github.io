@@ -142,10 +142,14 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#store配置">Store配置</a></li>
-    <li><a href="#repo仓库配置">repo仓库配置</a></li>
-    <li><a href="#pip仓库配置">pip仓库配置</a></li>
-    <li><a href="#docker仓库配置">docker仓库配置</a></li>
+    <li><a href="#存储配置-store">存储配置-store</a></li>
+    <li><a href="#仓库配置-debianubuntu">仓库配置-debian/ubuntu</a></li>
+    <li><a href="#仓库配置-raspberrypi">仓库配置-raspberrypi</a></li>
+    <li><a href="#仓库配置-redhatcentos">仓库配置-redhat/centos</a></li>
+    <li><a href="#仓库配置-euler">仓库配置-euler</a></li>
+    <li><a href="#仓库配置-pip">仓库配置-pip</a></li>
+    <li><a href="#仓库配置-docker">仓库配置-docker</a></li>
+    <li><a href="#binary-oss-proxy二进制">binary-oss-proxy(二进制)</a></li>
     <li><a href="#结尾">结尾</a></li>
   </ul>
 </nav>
@@ -204,18 +208,178 @@
         </div>
         
         <div class="post-content">
-            <h2 id="store配置">Store配置</h2>
-<ol>
-<li>点击设置 - -&gt; Blob Stores &ndash; &gt; Create blob store</li>
-<li>type:file | s3</li>
-<li>name:repo</li>
-<li>path:</li>
-</ol>
-<h2 id="repo仓库配置">repo仓库配置</h2>
-<p>点击设置 - -&gt; Repositories &ndash; &gt; Create repository</p>
-<h2 id="pip仓库配置">pip仓库配置</h2>
-<h2 id="docker仓库配置">docker仓库配置</h2>
-<h2 id="结尾">结尾</h2>
+            <h2 id="存储配置-store">存储配置-store</h2>
+<p>点击设置 - -&gt; Blob Stores &ndash; &gt; Create blob store</p>
+<pre tabindex="0"><code>type: file | s3
+name: kubeoperator
+path: /nexus-data/blobs/kubeoperator
+</code></pre><p>
+        <img class="mx-auto" alt="" src="/img/nexus/blobs.png" />   
+    </p>
+<h2 id="仓库配置-debianubuntu">仓库配置-debian/ubuntu</h2>
+<p>点击设置 - -&gt; Repositories &ndash; &gt; Create repository：apt (proxy)</p>
+<p>debian 11 - bullseye</p>
+<pre tabindex="0"><code>name: apt-proxy-amd64-bullseye
+distribution: bullseye
+proxy: http://mirrors.aliyun.com/debian-ports
+store: kubeoperator
+</code></pre><p>debian 10 - buster</p>
+<pre tabindex="0"><code>name: apt-proxy-amd64-buster
+distribution: buster
+proxy: http://mirrors.aliyun.com/debian-ports
+store: kubeoperator
+</code></pre><p>ubuntu-focal</p>
+<pre tabindex="0"><code>name: apt-proxy-arm64-focal
+distribution: focal
+proxy: http://mirrors.aliyun.com/ubuntu-ports
+store: kubeoperator
+</code></pre><p>ubuntu-bionic</p>
+<pre tabindex="0"><code>name: apt-proxy-arm64-bionic
+distribution: bionic
+proxy: http://mirrors.aliyun.com/ubuntu-ports
+store: kubeoperator
+</code></pre><p>
+        <img class="mx-auto" alt="" src="/img/nexus/ubuntu.png" />   
+    </p>
+<h2 id="仓库配置-raspberrypi">仓库配置-raspberrypi</h2>
+<p>raspbian</p>
+<pre tabindex="0"><code>name: raspbian
+distribution: raspbian
+proxy: https://mirrors.tuna.tsinghua.edu.cn/raspbian
+store: kubeoperator
+</code></pre><p>raspberrypi</p>
+<pre tabindex="0"><code>name: raspberrypi
+distribution: raspberrypi
+proxy: https://mirrors.tuna.tsinghua.edu.cn/raspberrypi
+store: kubeoperator
+</code></pre><h2 id="仓库配置-redhatcentos">仓库配置-redhat/centos</h2>
+<p>点击设置 - -&gt; Repositories &ndash; &gt; Create repository：yum (proxy)</p>
+<p>centos-altarch(可选)</p>
+<pre tabindex="0"><code>name: centos-altarch
+proxy: https://mirrors.aliyun.com/centos-altarch
+store: kubeoperator
+</code></pre><p>centos-cuda(可选)</p>
+<pre tabindex="0"><code>name: centos-cuda
+proxy: https://developer.download.nvidia.cn/compute/cuda/repos
+store: kubeoperator
+</code></pre><p>centos epel</p>
+<pre tabindex="0"><code>name: centos-epel
+proxy: https://mirrors.tuna.tsinghua.edu.cn/epel
+store: kubeoperator
+</code></pre><p>centos base</p>
+<pre tabindex="0"><code>name: centos-base
+proxy: http://mirrors.163.com/centos/
+store: kubeoperator
+</code></pre><p>
+        <img class="mx-auto" alt="" src="/img/nexus/centos-base.png" />   
+    </p>
+<h2 id="仓库配置-euler">仓库配置-euler</h2>
+<p>点击设置 - -&gt; Repositories &ndash; &gt; Create repository：yum (proxy)</p>
+<p>euler base</p>
+<pre tabindex="0"><code>name: euler-base
+proxy: http://mirrors.huaweicloud.com/euler/
+store: kubeoperator
+</code></pre><h2 id="仓库配置-pip">仓库配置-pip</h2>
+<p>1.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：pypi (proxy)</p>
+<pre tabindex="0"><code>name: pypi-proxy
+proxy: http://mirrors.aliyun.com/pypi/
+store: pypi
+</code></pre><p>2.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：pypi (hosted)</p>
+<pre tabindex="0"><code>name: pypi-hosted
+store: pypi
+</code></pre><p>3.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：pypi (group)</p>
+<pre tabindex="0"><code>name: pypi-group
+store: pypi
+group-members: pypi-proxy,pypi-hosted
+
+或者
+
+name: pypi
+store: pypi
+group-members: pypi-proxy,pypi-hosted
+</code></pre><p>
+        <img class="mx-auto" alt="" src="/img/nexus/pip.png" />   
+    </p>
+<p>客户端 使用方法：</p>
+<pre tabindex="0"><code>pip3 install flask --index-url=http://192.168.1.100:8081/repository/pypi-group/simple --trusted-host=192.168.1.100
+#pip3 install flask --index-url=http://192.168.1.100:8081/repository/pypi/simple --trusted-host=192.168.1.100
+或者
+
+cat &gt; ~/.pip/pip.conf &lt;EOF
+[global]
+#index-url = http://192.168.1.100:8081/repository/pypi/simple
+index-url = http://192.168.1.100:8081/repository/pypi-group/simple
+[install]
+trusted-host = 192.168.1.100
+EOF
+
+若权限认证失败，则可开启nexus的匿名访问功能
+nexus设置--》Security--》Anonymous，勾选Allow anonymous users to access the server即可
+</code></pre><h2 id="仓库配置-docker">仓库配置-docker</h2>
+<p>1.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：docker (proxy)</p>
+<pre tabindex="0"><code>name: docker-hub-proxy
+proxy: https://registry-1.docker.io
+docker: use docker hub
+store: docker
+
+
+name: docker-aliyun-proxy
+proxy: https://registry.cn-qingdao.aliyuncs.com
+docker: use proxy registry
+store: docker
+
+name:  elastic-proxy
+proxy: https://docker.elastic.co
+docker: use proxy registry
+store: docker
+
+
+name:  quay-proxy
+proxy: https://quay.io
+docker: use proxy registry
+store: docker
+</code></pre><p>2.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：docker (hosted)</p>
+<pre tabindex="0"><code>name:  kubeoperator
+http:  8083
+docker registry v1 api : enable
+store: docker
+</code></pre><p>3.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：docker (group)</p>
+<pre tabindex="0"><code>name:  docker-registry-group
+http: 8082
+store: docker
+group-members: docker-hub-proxy,docker-aliyun-proxy,elastic-proxy,quay-proxy,kubeoperator
+</code></pre><p>4.客户端设置</p>
+<pre tabindex="0"><code>#echo &#34;172.20.2.90 registry.kubeoperator.io&#34; &gt;&gt; /etc/hosts
+
+#cat /etc/docker/daemon.json
+{
+  &#34;registry-mirrors&#34;: [&#34;http://172.20.2.90:8082&#34;,&#34;http://registry.kubeoperator.io:8082&#34;,&#34;https://reg-mirror.qiniu.com&#34;,&#34;https://hub-mirror.c.163.com&#34;],
+  &#34;insecure-registries&#34;: [&#34;172.20.2.90:8082&#34;,&#34;172.20.2.90:8083&#34;,&#34;registry.kubeoperator.io:8083&#34;,&#34;registry.kubeoperator.io:8082&#34;,&#34;10.0.0.0/14&#34;,&#34;192.168.0.0/16&#34;],
+  &#34;max-concurrent-downloads&#34;: 10,
+  &#34;log-driver&#34;: &#34;json-file&#34;,
+  &#34;log-level&#34;: &#34;warn&#34;,
+  &#34;log-opts&#34;: {
+    &#34;max-size&#34;: &#34;10m&#34;,
+    &#34;max-file&#34;: &#34;3&#34;
+    },
+  &#34;live-restore&#34;: true,
+  &#34;bip&#34;: &#34;172.18.0.1/16&#34;,
+  &#34;data-root&#34;: &#34;/var/lib/docker&#34;,
+  &#34;exec-opts&#34;: [&#34;native.cgroupdriver=cgroupfs&#34;]
+}
+</code></pre><h2 id="binary-oss-proxy二进制">binary-oss-proxy(二进制)</h2>
+<p>1.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：raw (proxy)</p>
+<pre tabindex="0"><code>name: binary-oss-proxy
+proxy: https://kubeoperator.fit2cloud.com/
+store: binary
+</code></pre><p>2.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：raw (hostsed)</p>
+<pre tabindex="0"><code>name: binary-raw
+store: binary
+</code></pre><p>3.点击设置 - -&gt; Repositories &ndash; &gt; Create repository：raw (group)</p>
+<pre tabindex="0"><code>name: oss-proxy
+store: binary
+group-members: binary-raw,binary-oss-proxy
+</code></pre><h2 id="结尾">结尾</h2>
 <p>若对你有帮助，不介意打赏支持一下,您的支持是我前进的动力！！！</p>
 <table>
 <thead>
