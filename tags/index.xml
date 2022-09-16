@@ -6,7 +6,43 @@
     <description>Recent content in Tags on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 14:49:23 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>erp</title>
+      <link>/tags/erp/</link>
+      <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
+      
+      <guid>/tags/erp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>odoo</title>
+      <link>/tags/odoo/</link>
+      <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
+      
+      <guid>/tags/odoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>/tags/server/</link>
+      <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
+      
+      <guid>/tags/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soft</title>
+      <link>/tags/soft/</link>
+      <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
+      
+      <guid>/tags/soft/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>frp</title>
       <link>/tags/frp/</link>
@@ -26,29 +62,11 @@
     </item>
     
     <item>
-      <title>server</title>
-      <link>/tags/server/</link>
-      <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
-      
-      <guid>/tags/server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>nexus</title>
       <link>/tags/nexus/</link>
       <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
       
       <guid>/tags/nexus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>soft</title>
-      <link>/tags/soft/</link>
-      <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
-      
-      <guid>/tags/soft/</guid>
       <description></description>
     </item>
     

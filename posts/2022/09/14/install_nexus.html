@@ -303,6 +303,8 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main con
 sudo sed -i &#39;s#://mirrordirector.raspbian.org#s://mirrors.tuna.tsinghua.edu.cn/raspbian#g&#39; /etc/apt/sources.list
 sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://mirrors.tuna.tsinghua.edu.cn/raspberrypi#g&#39; /etc/apt/sources.list.d/raspi.list
 
+
+
 #私有仓库（http 和 https）
 sudo sed -i &#39;s#://mirrordirector.raspbian.org#s://172.20.2.90:8081/repository/raspbian#g&#39; /etc/apt/sources.list
 sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://172.20.2.90:8081/repository/raspberrypi#g&#39; /etc/apt/sources.list.d/raspi.list
@@ -443,7 +445,11 @@ sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://172.20.2.90:8081/reposi
 <ul class="widget-list">
     
     <li>
-        <a href="/posts/2022/09/16/202209116_frp_service.html" title="frp_service">frp_service</a>
+        <a href="/posts/2022/09/16/odoo_service.html" title="odoo_service">odoo_service</a>
+    </li>
+    
+    <li>
+        <a href="/posts/2022/09/16/1457_frp_service.html" title="frp_service">frp_service</a>
     </li>
     
     <li>
@@ -478,10 +484,6 @@ sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://172.20.2.90:8081/reposi
         <a href="/posts/2022/09/14/install_rancher.html" title="Install_rancher">Install_rancher</a>
     </li>
     
-    <li>
-        <a href="/posts/2022/09/08/dnsmasq.html" title="Dnsmasq">Dnsmasq</a>
-    </li>
-    
 </ul>
     </section>
 
@@ -497,7 +499,7 @@ sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://172.20.2.90:8081/reposi
     
     <li><a href="/categories/linux/">linux (2)</a></li>
     
-    <li><a href="/categories/soft/">soft (7)</a></li>
+    <li><a href="/categories/soft/">soft (8)</a></li>
     
     <li><a href="/categories/tools/">tools (1)</a></li>
     
@@ -520,6 +522,8 @@ sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://172.20.2.90:8081/reposi
     
     <a href="/tags/docker/">docker</a>
     
+    <a href="/tags/erp/">erp</a>
+    
     <a href="/tags/frp/">frp</a>
     
     <a href="/tags/k3s/">k3s</a>
@@ -533,6 +537,8 @@ sudo sed -i &#39;s#://archive.raspberrypi.org/debian#s://172.20.2.90:8081/reposi
     <a href="/tags/nexus/">nexus</a>
     
     <a href="/tags/nfs/">nfs</a>
+    
+    <a href="/tags/odoo/">odoo</a>
     
     <a href="/tags/pi/">pi</a>
     

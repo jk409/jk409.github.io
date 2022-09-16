@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 16 Sep 2022 14:49:23 +0800</lastBuildDate><atom:link href="/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>frp_service</title>
-      <link>/posts/2022/09/16/202209116_frp_service.html</link>
+      <link>/posts/2022/09/16/1457_frp_service.html</link>
       <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/202209116_frp_service.html</guid>
+      <guid>/posts/2022/09/16/1457_frp_service.html</guid>
       <description>frp下载 https://github.com/fatedier/frp/releases frps 配置 #cat &amp;gt; frps.ini &amp;lt;EOF [common] bind_port = 7000 dashboard_port = 7500 token = &amp;#34;a12345678&amp;#34; dashboard_user =</description>
     </item>
     

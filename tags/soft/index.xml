@@ -6,7 +6,16 @@
     <description>Recent content in soft on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 10:08:45 +0800</lastBuildDate><atom:link href="/tags/soft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="/tags/soft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>odoo_service</title>
+      <link>/posts/2022/09/16/odoo_service.html</link>
+      <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
+      
+      <guid>/posts/2022/09/16/odoo_service.html</guid>
+      <description>官方链接 odoo http://nightly.odoo.com/ github https://github.com/odoo/odoo 社区 https://www.odoo.com 镜像下载 #版本： postgres:[12.4/13] odoo:[14/15] #docekr pull docker.io/library/postgres:12.4 dcoker</description>
+    </item>
+    
     <item>
       <title>Nexus 仓库配置</title>
       <link>/posts/2022/09/16/nexus_repo.html</link>

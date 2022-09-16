@@ -6,13 +6,22 @@
     <description>Recent content on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 14:49:23 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>odoo_service</title>
+      <link>/posts/2022/09/16/odoo_service.html</link>
+      <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
+      
+      <guid>/posts/2022/09/16/odoo_service.html</guid>
+      <description>官方链接 odoo http://nightly.odoo.com/ github https://github.com/odoo/odoo 社区 https://www.odoo.com 镜像下载 #版本： postgres:[12.4/13] odoo:[14/15] #docekr pull docker.io/library/postgres:12.4 dcoker</description>
+    </item>
+    
     <item>
       <title>frp_service</title>
-      <link>/posts/2022/09/16/202209116_frp_service.html</link>
+      <link>/posts/2022/09/16/1457_frp_service.html</link>
       <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/202209116_frp_service.html</guid>
+      <guid>/posts/2022/09/16/1457_frp_service.html</guid>
       <description>frp下载 https://github.com/fatedier/frp/releases frps 配置 #cat &amp;gt; frps.ini &amp;lt;EOF [common] bind_port = 7000 dashboard_port = 7500 token = &amp;#34;a12345678&amp;#34; dashboard_user =</description>
     </item>
     

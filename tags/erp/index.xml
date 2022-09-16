@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>erp on 网中维</title>
+    <link>/tags/erp/</link>
+    <description>Recent content in erp on 网中维</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="/tags/erp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>odoo_service</title>
+      <link>/posts/2022/09/16/odoo_service.html</link>
+      <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
+      
+      <guid>/posts/2022/09/16/odoo_service.html</guid>
+      <description>官方链接 odoo http://nightly.odoo.com/ github https://github.com/odoo/odoo 社区 https://www.odoo.com 镜像下载 #版本： postgres:[12.4/13] odoo:[14/15] #docekr pull docker.io/library/postgres:12.4 dcoker</description>
+    </item>
+    
+  </channel>
+</rss>
