@@ -6,7 +6,16 @@
     <description>Recent content in soft on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Sep 2022 14:22:52 +0800</lastBuildDate><atom:link href="/categories/soft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 10:08:45 +0800</lastBuildDate><atom:link href="/categories/soft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nexus_仓库配置</title>
+      <link>/posts/2022/09/16/nexus_repo.html</link>
+      <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
+      
+      <guid>/posts/2022/09/16/nexus_repo.html</guid>
+      <description>存储配置-store 点击设置 - -&amp;gt; Blob Stores &amp;ndash; &amp;gt; Create blob store type: file</description>
+    </item>
+    
     <item>
       <title>文件服务器</title>
       <link>/posts/2022/09/15/20220915_smb_server.html</link>
