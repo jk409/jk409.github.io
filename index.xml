@@ -2,215 +2,215 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网中维</title>
-    <link>/</link>
+    <link>https://flyhu.org/</link>
     <description>Recent content on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Oct 2022 09:34:45 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 09:34:45 +0800</lastBuildDate><atom:link href="https://flyhu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20221027 Gitlab_server</title>
-      <link>/posts/2022/10/27/20221027-gitlab_server.html</link>
+      <link>https://flyhu.org/posts/2022/10/27/20221027-gitlab_server.html</link>
       <pubDate>Thu, 27 Oct 2022 09:34:45 +0800</pubDate>
       
-      <guid>/posts/2022/10/27/20221027-gitlab_server.html</guid>
+      <guid>https://flyhu.org/posts/2022/10/27/20221027-gitlab_server.html</guid>
       <description>gitlab gitlab官⽅地址：https://about</description>
     </item>
     
     <item>
       <title>20220922 Deepin_docker</title>
-      <link>/posts/2022/09/22/20220922-deepin_docker.html</link>
+      <link>https://flyhu.org/posts/2022/09/22/20220922-deepin_docker.html</link>
       <pubDate>Thu, 22 Sep 2022 11:34:59 +0800</pubDate>
       
-      <guid>/posts/2022/09/22/20220922-deepin_docker.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/22/20220922-deepin_docker.html</guid>
       <description>新系统，一般添加软件源,update,instal</description>
     </item>
     
     <item>
       <title>odoo_service</title>
-      <link>/posts/2022/09/16/odoo_service.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/odoo_service.html</link>
       <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/odoo_service.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/odoo_service.html</guid>
       <description>官方链接 odoo http://nightly.odoo.com/ github https://github.com/odoo/odoo 社区 https://www.odoo.com 镜像下载 #版本： postgres:[12.4/13] odoo:[14/15] #docekr pull docker.io/library/postgres:12.4 dcoker</description>
     </item>
     
     <item>
       <title>frp_service</title>
-      <link>/posts/2022/09/16/1457_frp_service.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/1457_frp_service.html</link>
       <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/1457_frp_service.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/1457_frp_service.html</guid>
       <description>frp下载 https://github.com/fatedier/frp/releases frps 配置 #cat &amp;gt; frps.ini &amp;lt;EOF [common] bind_port = 7000 dashboard_port = 7500 token = &amp;#34;a12345678&amp;#34; dashboard_user =</description>
     </item>
     
     <item>
       <title>Nexus 仓库配置</title>
-      <link>/posts/2022/09/16/nexus_repo.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/nexus_repo.html</link>
       <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/nexus_repo.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/nexus_repo.html</guid>
       <description>存储配置-store 点击设置 - -&amp;gt; Blob Stores &amp;ndash; &amp;gt; Create blob store type: file</description>
     </item>
     
     <item>
       <title>raspberry pi</title>
-      <link>/posts/2022/09/15/raspberry_pi.html</link>
+      <link>https://flyhu.org/posts/2022/09/15/raspberry_pi.html</link>
       <pubDate>Thu, 15 Sep 2022 16:01:31 +0800</pubDate>
       
-      <guid>/posts/2022/09/15/raspberry_pi.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/15/raspberry_pi.html</guid>
       <description>raspberry pi 1.下载raspberry pi 命令行版本 桌面版 命</description>
     </item>
     
     <item>
       <title>文件服务器</title>
-      <link>/posts/2022/09/15/20220915_smb_server.html</link>
+      <link>https://flyhu.org/posts/2022/09/15/20220915_smb_server.html</link>
       <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
       
-      <guid>/posts/2022/09/15/20220915_smb_server.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/15/20220915_smb_server.html</guid>
       <description>官网 官网： https://www.openmediavault.org/ 社区： https://www.openmediavault.cn/ 仓库： https://github.com/openmediavault-Plugin-Developers 依赖系统 OMV 5.x on Debian 10 (Buster) OMV</description>
     </item>
     
     <item>
       <title>20220915_music</title>
-      <link>/posts/2022/09/15/20220915_music.html</link>
+      <link>https://flyhu.org/posts/2022/09/15/20220915_music.html</link>
       <pubDate>Thu, 15 Sep 2022 08:44:17 +0800</pubDate>
       
-      <guid>/posts/2022/09/15/20220915_music.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/15/20220915_music.html</guid>
       <description>Sounds Like Somewhere 结尾 若对你有帮助，不介意打赏支持一下,您的支</description>
     </item>
     
     <item>
       <title>监控宝_uptime_kuma</title>
-      <link>/posts/2022/09/15/uptimeKuma.html</link>
+      <link>https://flyhu.org/posts/2022/09/15/uptimeKuma.html</link>
       <pubDate>Thu, 15 Sep 2022 08:16:15 +0800</pubDate>
       
-      <guid>/posts/2022/09/15/uptimeKuma.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/15/uptimeKuma.html</guid>
       <description>简介 uptime-kuma[1]是一个花里胡哨的自</description>
     </item>
     
     <item>
       <title>sysctl_内核优化</title>
-      <link>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</link>
+      <link>https://flyhu.org/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</link>
       <pubDate>Wed, 14 Sep 2022 08:45:28 +0800</pubDate>
       
-      <guid>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</guid>
       <description>内核优化详解 net.ipv4.tcp_keepalive_time=600 #此参数表示TCP发送keepali</description>
     </item>
     
     <item>
       <title>Install_nexus</title>
-      <link>/posts/2022/09/14/install_nexus.html</link>
+      <link>https://flyhu.org/posts/2022/09/14/install_nexus.html</link>
       <pubDate>Wed, 14 Sep 2022 08:38:06 +0800</pubDate>
       
-      <guid>/posts/2022/09/14/install_nexus.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/14/install_nexus.html</guid>
       <description>下载镜像 docker pull registry.cn-qingdao.aliyuncs.com/kubeoperator/nexus3:3.25.0-amd64 或者 docker pull sonatype/nexus3 运行 #docker run -d --privileged --restart=unless-stopped \ -p 80:80 -p 443:443 rancher/rancher:v2.5.12</description>
     </item>
     
     <item>
       <title>Install_rancher</title>
-      <link>/posts/2022/09/14/install_rancher.html</link>
+      <link>https://flyhu.org/posts/2022/09/14/install_rancher.html</link>
       <pubDate>Wed, 14 Sep 2022 08:04:45 +0800</pubDate>
       
-      <guid>/posts/2022/09/14/install_rancher.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/14/install_rancher.html</guid>
       <description>系统优化 yum install -y epel-release yum install -y yum-utils device-mapper-persistent-data lvm2 yum install -y ntpdate ntpdate cn.pool.ntp.org setenforce 0 sed -i &amp;#34;s/^SELINUX=enforcing/SELINUX=disabled/g&amp;#34;</description>
     </item>
     
     <item>
       <title>Dnsmasq</title>
-      <link>/posts/2022/09/08/dnsmasq.html</link>
+      <link>https://flyhu.org/posts/2022/09/08/dnsmasq.html</link>
       <pubDate>Thu, 08 Sep 2022 09:46:48 +0800</pubDate>
       
-      <guid>/posts/2022/09/08/dnsmasq.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/08/dnsmasq.html</guid>
       <description>下载dnsmasq 镜像 sudo docker pull jpillora/dnsmasq:latest 配置文件dnsmas</description>
     </item>
     
     <item>
       <title>Django Nginx</title>
-      <link>/posts/2022/09/07/django-nginx.html</link>
+      <link>https://flyhu.org/posts/2022/09/07/django-nginx.html</link>
       <pubDate>Wed, 07 Sep 2022 16:12:41 +0800</pubDate>
       
-      <guid>/posts/2022/09/07/django-nginx.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/07/django-nginx.html</guid>
       <description>django nignx.conf 生产模式配置,流程如下 主要配置静态文件目录和代</description>
     </item>
     
     <item>
       <title>Gproxy</title>
-      <link>/posts/2022/9/7/gproxy.html</link>
+      <link>https://flyhu.org/posts/2022/9/7/gproxy.html</link>
       <pubDate>Wed, 07 Sep 2022 14:13:16 +0800</pubDate>
       
-      <guid>/posts/2022/9/7/gproxy.html</guid>
+      <guid>https://flyhu.org/posts/2022/9/7/gproxy.html</guid>
       <description>gproxy # key ./proxy kengen -C proxy # gp-server ./proxy http -t tls -p :12590 -C proxy.crt -K proxy.key --daemon # gp-client ./proxy http -t</description>
     </item>
     
     <item>
       <title>安装 NFS</title>
-      <link>/posts/2022/9/7/install-nfs.html</link>
+      <link>https://flyhu.org/posts/2022/9/7/install-nfs.html</link>
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
-      <guid>/posts/2022/9/7/install-nfs.html</guid>
+      <guid>https://flyhu.org/posts/2022/9/7/install-nfs.html</guid>
       <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安</description>
     </item>
     
     <item>
       <title>安装 Docker</title>
-      <link>/posts/2022/9/2/install-docker.html</link>
+      <link>https://flyhu.org/posts/2022/9/2/install-docker.html</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>/posts/2022/9/2/install-docker.html</guid>
+      <guid>https://flyhu.org/posts/2022/9/2/install-docker.html</guid>
       <description>安装docker #bash install_docker.sh #cat install_docker.sh #!/usr/bin/env bash # BASE_DIR=$(dirname &amp;#34;$0&amp;#34;) function prepare_install() { yum install -y epel-release yum</description>
     </item>
     
     <item>
       <title>防数据勒索</title>
-      <link>/posts/2022/9/1/safe.html</link>
+      <link>https://flyhu.org/posts/2022/9/1/safe.html</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>/posts/2022/9/1/safe.html</guid>
+      <guid>https://flyhu.org/posts/2022/9/1/safe.html</guid>
       <description>端口：135、139、138、137和445 使用系</description>
     </item>
     
     <item>
       <title>关于我</title>
-      <link>/about/</link>
+      <link>https://flyhu.org/about/</link>
       <pubDate>Thu, 01 Sep 2022 09:13:27 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://flyhu.org/about/</guid>
       <description>专业系统运维十余年&amp;hellip;&amp;hellip;</description>
     </item>
     
     <item>
       <title>常用软件工具</title>
-      <link>/tools/</link>
+      <link>https://flyhu.org/tools/</link>
       <pubDate>Thu, 01 Sep 2022 15:37:12 +0800</pubDate>
       
-      <guid>/tools/</guid>
+      <guid>https://flyhu.org/tools/</guid>
       <description>devops / 1 2 3 4 GIT gitlab gogs gitea CICD jekins gopub gokins AUTO ansible saltstack K3S ranche rke K8S kubeoperator kubekey eggo kuboard-spray</description>
     </item>
     
     <item>
       <title>网络安全科普手册</title>
-      <link>/posts/2022/9/1/anqian.html</link>
+      <link>https://flyhu.org/posts/2022/9/1/anqian.html</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>/posts/2022/9/1/anqian.html</guid>
+      <guid>https://flyhu.org/posts/2022/9/1/anqian.html</guid>
       <description>网络安全科普手册 结尾 若对你有帮助，不介意赞赏一下 支</description>
     </item>
     
     <item>
       <title>归档</title>
-      <link>/archives/</link>
+      <link>https://flyhu.org/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/archives/</guid>
+      <guid>https://flyhu.org/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>搜索</title>
-      <link>/search/</link>
+      <link>https://flyhu.org/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/search/</guid>
+      <guid>https://flyhu.org/search/</guid>
       <description></description>
     </item>
     

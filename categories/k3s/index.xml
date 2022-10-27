@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>k3s on 网中维</title>
-    <link>/categories/k3s/</link>
+    <link>https://flyhu.org/categories/k3s/</link>
     <description>Recent content in k3s on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Sep 2022 08:04:45 +0800</lastBuildDate><atom:link href="/categories/k3s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Sep 2022 08:04:45 +0800</lastBuildDate><atom:link href="https://flyhu.org/categories/k3s/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install_rancher</title>
-      <link>/posts/2022/09/14/install_rancher.html</link>
+      <link>https://flyhu.org/posts/2022/09/14/install_rancher.html</link>
       <pubDate>Wed, 14 Sep 2022 08:04:45 +0800</pubDate>
       
-      <guid>/posts/2022/09/14/install_rancher.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/14/install_rancher.html</guid>
       <description>系统优化 yum install -y epel-release yum install -y yum-utils device-mapper-persistent-data lvm2 yum install -y ntpdate ntpdate cn.pool.ntp.org setenforce 0 sed -i &amp;#34;s/^SELINUX=enforcing/SELINUX=disabled/g&amp;#34;</description>
     </item>
     

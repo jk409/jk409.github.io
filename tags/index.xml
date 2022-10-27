@@ -2,350 +2,350 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 网中维</title>
-    <link>/tags/</link>
+    <link>https://flyhu.org/tags/</link>
     <description>Recent content in Tags on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Oct 2022 09:34:45 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 09:34:45 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git</title>
-      <link>/tags/git/</link>
+      <link>https://flyhu.org/tags/git/</link>
       <pubDate>Thu, 27 Oct 2022 09:34:45 +0800</pubDate>
       
-      <guid>/tags/git/</guid>
+      <guid>https://flyhu.org/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gitlab</title>
-      <link>/tags/gitlab/</link>
+      <link>https://flyhu.org/tags/gitlab/</link>
       <pubDate>Thu, 27 Oct 2022 09:34:45 +0800</pubDate>
       
-      <guid>/tags/gitlab/</guid>
+      <guid>https://flyhu.org/tags/gitlab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>/tags/docker/</link>
+      <link>https://flyhu.org/tags/docker/</link>
       <pubDate>Thu, 22 Sep 2022 11:34:59 +0800</pubDate>
       
-      <guid>/tags/docker/</guid>
+      <guid>https://flyhu.org/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>erp</title>
-      <link>/tags/erp/</link>
+      <link>https://flyhu.org/tags/erp/</link>
       <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
       
-      <guid>/tags/erp/</guid>
+      <guid>https://flyhu.org/tags/erp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>odoo</title>
-      <link>/tags/odoo/</link>
+      <link>https://flyhu.org/tags/odoo/</link>
       <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
       
-      <guid>/tags/odoo/</guid>
+      <guid>https://flyhu.org/tags/odoo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>server</title>
-      <link>/tags/server/</link>
+      <link>https://flyhu.org/tags/server/</link>
       <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
       
-      <guid>/tags/server/</guid>
+      <guid>https://flyhu.org/tags/server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>soft</title>
-      <link>/tags/soft/</link>
+      <link>https://flyhu.org/tags/soft/</link>
       <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
       
-      <guid>/tags/soft/</guid>
+      <guid>https://flyhu.org/tags/soft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>frp</title>
-      <link>/tags/frp/</link>
+      <link>https://flyhu.org/tags/frp/</link>
       <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/tags/frp/</guid>
+      <guid>https://flyhu.org/tags/frp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>proxy</title>
-      <link>/tags/proxy/</link>
+      <link>https://flyhu.org/tags/proxy/</link>
       <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/tags/proxy/</guid>
+      <guid>https://flyhu.org/tags/proxy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nexus</title>
-      <link>/tags/nexus/</link>
+      <link>https://flyhu.org/tags/nexus/</link>
       <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
       
-      <guid>/tags/nexus/</guid>
+      <guid>https://flyhu.org/tags/nexus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>仓库</title>
-      <link>/tags/%E4%BB%93%E5%BA%93/</link>
+      <link>https://flyhu.org/tags/%E4%BB%93%E5%BA%93/</link>
       <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
       
-      <guid>/tags/%E4%BB%93%E5%BA%93/</guid>
+      <guid>https://flyhu.org/tags/%E4%BB%93%E5%BA%93/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pi</title>
-      <link>/tags/pi/</link>
+      <link>https://flyhu.org/tags/pi/</link>
       <pubDate>Thu, 15 Sep 2022 16:01:31 +0800</pubDate>
       
-      <guid>/tags/pi/</guid>
+      <guid>https://flyhu.org/tags/pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>树莓派</title>
-      <link>/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</link>
+      <link>https://flyhu.org/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</link>
       <pubDate>Thu, 15 Sep 2022 16:01:31 +0800</pubDate>
       
-      <guid>/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</guid>
+      <guid>https://flyhu.org/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nas</title>
-      <link>/tags/nas/</link>
+      <link>https://flyhu.org/tags/nas/</link>
       <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
       
-      <guid>/tags/nas/</guid>
+      <guid>https://flyhu.org/tags/nas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smb</title>
-      <link>/tags/smb/</link>
+      <link>https://flyhu.org/tags/smb/</link>
       <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
       
-      <guid>/tags/smb/</guid>
+      <guid>https://flyhu.org/tags/smb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>文件服务</title>
-      <link>/tags/%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1/</link>
+      <link>https://flyhu.org/tags/%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1/</link>
       <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
       
-      <guid>/tags/%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1/</guid>
+      <guid>https://flyhu.org/tags/%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uptime_kuma</title>
-      <link>/tags/uptime_kuma/</link>
+      <link>https://flyhu.org/tags/uptime_kuma/</link>
       <pubDate>Thu, 15 Sep 2022 08:16:15 +0800</pubDate>
       
-      <guid>/tags/uptime_kuma/</guid>
+      <guid>https://flyhu.org/tags/uptime_kuma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>监控</title>
-      <link>/tags/%E7%9B%91%E6%8E%A7/</link>
+      <link>https://flyhu.org/tags/%E7%9B%91%E6%8E%A7/</link>
       <pubDate>Thu, 15 Sep 2022 08:16:15 +0800</pubDate>
       
-      <guid>/tags/%E7%9B%91%E6%8E%A7/</guid>
+      <guid>https://flyhu.org/tags/%E7%9B%91%E6%8E%A7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>/tags/linux/</link>
+      <link>https://flyhu.org/tags/linux/</link>
       <pubDate>Wed, 14 Sep 2022 08:45:28 +0800</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>https://flyhu.org/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sysctl</title>
-      <link>/tags/sysctl/</link>
+      <link>https://flyhu.org/tags/sysctl/</link>
       <pubDate>Wed, 14 Sep 2022 08:45:28 +0800</pubDate>
       
-      <guid>/tags/sysctl/</guid>
+      <guid>https://flyhu.org/tags/sysctl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>内核优化</title>
-      <link>/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</link>
+      <link>https://flyhu.org/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 14 Sep 2022 08:45:28 +0800</pubDate>
       
-      <guid>/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://flyhu.org/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</guid>
       <description></description>
     </item>
     
     <item>
       <title>系统优化</title>
-      <link>/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</link>
+      <link>https://flyhu.org/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 14 Sep 2022 08:45:28 +0800</pubDate>
       
-      <guid>/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://flyhu.org/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</guid>
       <description></description>
     </item>
     
     <item>
       <title>repo</title>
-      <link>/tags/repo/</link>
+      <link>https://flyhu.org/tags/repo/</link>
       <pubDate>Wed, 14 Sep 2022 08:38:06 +0800</pubDate>
       
-      <guid>/tags/repo/</guid>
+      <guid>https://flyhu.org/tags/repo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>k3s</title>
-      <link>/tags/k3s/</link>
+      <link>https://flyhu.org/tags/k3s/</link>
       <pubDate>Wed, 14 Sep 2022 08:04:45 +0800</pubDate>
       
-      <guid>/tags/k3s/</guid>
+      <guid>https://flyhu.org/tags/k3s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rancher</title>
-      <link>/tags/rancher/</link>
+      <link>https://flyhu.org/tags/rancher/</link>
       <pubDate>Wed, 14 Sep 2022 08:04:45 +0800</pubDate>
       
-      <guid>/tags/rancher/</guid>
+      <guid>https://flyhu.org/tags/rancher/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns</title>
-      <link>/tags/dns/</link>
+      <link>https://flyhu.org/tags/dns/</link>
       <pubDate>Thu, 08 Sep 2022 09:46:48 +0800</pubDate>
       
-      <guid>/tags/dns/</guid>
+      <guid>https://flyhu.org/tags/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dnsmasq</title>
-      <link>/tags/dnsmasq/</link>
+      <link>https://flyhu.org/tags/dnsmasq/</link>
       <pubDate>Thu, 08 Sep 2022 09:46:48 +0800</pubDate>
       
-      <guid>/tags/dnsmasq/</guid>
+      <guid>https://flyhu.org/tags/dnsmasq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>django</title>
-      <link>/tags/django/</link>
+      <link>https://flyhu.org/tags/django/</link>
       <pubDate>Wed, 07 Sep 2022 16:12:41 +0800</pubDate>
       
-      <guid>/tags/django/</guid>
+      <guid>https://flyhu.org/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nfs</title>
-      <link>/tags/nfs/</link>
+      <link>https://flyhu.org/tags/nfs/</link>
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
-      <guid>/tags/nfs/</guid>
+      <guid>https://flyhu.org/tags/nfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>k8s</title>
-      <link>/tags/k8s/</link>
+      <link>https://flyhu.org/tags/k8s/</link>
       <pubDate>Fri, 02 Sep 2022 16:06:18 +0800</pubDate>
       
-      <guid>/tags/k8s/</guid>
+      <guid>https://flyhu.org/tags/k8s/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安全</title>
-      <link>/tags/%E5%AE%89%E5%85%A8/</link>
+      <link>https://flyhu.org/tags/%E5%AE%89%E5%85%A8/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>/tags/%E5%AE%89%E5%85%A8/</guid>
+      <guid>https://flyhu.org/tags/%E5%AE%89%E5%85%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>防勒索</title>
-      <link>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</link>
+      <link>https://flyhu.org/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</guid>
+      <guid>https://flyhu.org/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>防数据勒索</title>
-      <link>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
+      <link>https://flyhu.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</link>
       <pubDate>Thu, 01 Sep 2022 17:31:20 +0800</pubDate>
       
-      <guid>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</guid>
+      <guid>https://flyhu.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devops</title>
-      <link>/tags/devops/</link>
+      <link>https://flyhu.org/tags/devops/</link>
       <pubDate>Thu, 01 Sep 2022 15:37:12 +0800</pubDate>
       
-      <guid>/tags/devops/</guid>
+      <guid>https://flyhu.org/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tools</title>
-      <link>/tags/tools/</link>
+      <link>https://flyhu.org/tags/tools/</link>
       <pubDate>Thu, 01 Sep 2022 15:37:12 +0800</pubDate>
       
-      <guid>/tags/tools/</guid>
+      <guid>https://flyhu.org/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>工具</title>
-      <link>/tags/%E5%B7%A5%E5%85%B7/</link>
+      <link>https://flyhu.org/tags/%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Thu, 01 Sep 2022 15:37:12 +0800</pubDate>
       
-      <guid>/tags/%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://flyhu.org/tags/%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网络安全</title>
-      <link>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link>
+      <link>https://flyhu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</guid>
+      <guid>https://flyhu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网络安全手册</title>
-      <link>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</link>
+      <link>https://flyhu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</link>
       <pubDate>Thu, 01 Sep 2022 12:31:20 +0800</pubDate>
       
-      <guid>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</guid>
+      <guid>https://flyhu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</guid>
       <description></description>
     </item>
     

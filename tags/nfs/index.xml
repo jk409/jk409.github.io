@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nfs on 网中维</title>
-    <link>/tags/nfs/</link>
+    <link>https://flyhu.org/tags/nfs/</link>
     <description>Recent content in nfs on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Sep 2022 11:29:31 +0800</lastBuildDate><atom:link href="/tags/nfs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 11:29:31 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/nfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>安装 NFS</title>
-      <link>/posts/2022/9/7/install-nfs.html</link>
+      <link>https://flyhu.org/posts/2022/9/7/install-nfs.html</link>
       <pubDate>Wed, 07 Sep 2022 11:29:31 +0800</pubDate>
       
-      <guid>/posts/2022/9/7/install-nfs.html</guid>
+      <guid>https://flyhu.org/posts/2022/9/7/install-nfs.html</guid>
       <description>安装，server yum install -y nfs-utils rpcbind systemctl enable nfs.service systemctl enable rpcbind.service #cat /etc/exports /data/www 192.168.26.70/24(rw,sync) 安</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>仓库 on 网中维</title>
-    <link>/tags/%E4%BB%93%E5%BA%93/</link>
+    <link>https://flyhu.org/tags/%E4%BB%93%E5%BA%93/</link>
     <description>Recent content in 仓库 on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 10:08:45 +0800</lastBuildDate><atom:link href="/tags/%E4%BB%93%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 10:08:45 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/%E4%BB%93%E5%BA%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nexus 仓库配置</title>
-      <link>/posts/2022/09/16/nexus_repo.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/nexus_repo.html</link>
       <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/nexus_repo.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/nexus_repo.html</guid>
       <description>存储配置-store 点击设置 - -&amp;gt; Blob Stores &amp;ndash; &amp;gt; Create blob store type: file</description>
     </item>
     

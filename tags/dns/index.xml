@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dns on 网中维</title>
-    <link>/tags/dns/</link>
+    <link>https://flyhu.org/tags/dns/</link>
     <description>Recent content in dns on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 08 Sep 2022 09:46:48 +0800</lastBuildDate><atom:link href="/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Sep 2022 09:46:48 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/dns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dnsmasq</title>
-      <link>/posts/2022/09/08/dnsmasq.html</link>
+      <link>https://flyhu.org/posts/2022/09/08/dnsmasq.html</link>
       <pubDate>Thu, 08 Sep 2022 09:46:48 +0800</pubDate>
       
-      <guid>/posts/2022/09/08/dnsmasq.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/08/dnsmasq.html</guid>
       <description>下载dnsmasq 镜像 sudo docker pull jpillora/dnsmasq:latest 配置文件dnsmas</description>
     </item>
     

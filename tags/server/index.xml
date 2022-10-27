@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>server on 网中维</title>
-    <link>/tags/server/</link>
+    <link>https://flyhu.org/tags/server/</link>
     <description>Recent content in server on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>odoo_service</title>
-      <link>/posts/2022/09/16/odoo_service.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/odoo_service.html</link>
       <pubDate>Fri, 16 Sep 2022 15:09:18 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/odoo_service.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/odoo_service.html</guid>
       <description>官方链接 odoo http://nightly.odoo.com/ github https://github.com/odoo/odoo 社区 https://www.odoo.com 镜像下载 #版本： postgres:[12.4/13] odoo:[14/15] #docekr pull docker.io/library/postgres:12.4 dcoker</description>
     </item>
     
     <item>
       <title>frp_service</title>
-      <link>/posts/2022/09/16/1457_frp_service.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/1457_frp_service.html</link>
       <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/1457_frp_service.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/1457_frp_service.html</guid>
       <description>frp下载 https://github.com/fatedier/frp/releases frps 配置 #cat &amp;gt; frps.ini &amp;lt;EOF [common] bind_port = 7000 dashboard_port = 7500 token = &amp;#34;a12345678&amp;#34; dashboard_user =</description>
     </item>
     
     <item>
       <title>Nexus 仓库配置</title>
-      <link>/posts/2022/09/16/nexus_repo.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/nexus_repo.html</link>
       <pubDate>Fri, 16 Sep 2022 10:08:45 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/nexus_repo.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/nexus_repo.html</guid>
       <description>存储配置-store 点击设置 - -&amp;gt; Blob Stores &amp;ndash; &amp;gt; Create blob store type: file</description>
     </item>
     
     <item>
       <title>文件服务器</title>
-      <link>/posts/2022/09/15/20220915_smb_server.html</link>
+      <link>https://flyhu.org/posts/2022/09/15/20220915_smb_server.html</link>
       <pubDate>Thu, 15 Sep 2022 14:22:52 +0800</pubDate>
       
-      <guid>/posts/2022/09/15/20220915_smb_server.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/15/20220915_smb_server.html</guid>
       <description>官网 官网： https://www.openmediavault.org/ 社区： https://www.openmediavault.cn/ 仓库： https://github.com/openmediavault-Plugin-Developers 依赖系统 OMV 5.x on Debian 10 (Buster) OMV</description>
     </item>
     
     <item>
       <title>监控宝_uptime_kuma</title>
-      <link>/posts/2022/09/15/uptimeKuma.html</link>
+      <link>https://flyhu.org/posts/2022/09/15/uptimeKuma.html</link>
       <pubDate>Thu, 15 Sep 2022 08:16:15 +0800</pubDate>
       
-      <guid>/posts/2022/09/15/uptimeKuma.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/15/uptimeKuma.html</guid>
       <description>简介 uptime-kuma[1]是一个花里胡哨的自</description>
     </item>
     

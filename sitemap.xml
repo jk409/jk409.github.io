@@ -2,215 +2,215 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/2022/10/27/20221027-gitlab_server.html</loc>
+    <loc>https://flyhu.org/posts/2022/10/27/20221027-gitlab_server.html</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://flyhu.org/categories/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/tags/git/</loc>
+    <loc>https://flyhu.org/tags/git/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/tags/gitlab/</loc>
+    <loc>https://flyhu.org/tags/gitlab/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://flyhu.org/posts/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/categories/soft/</loc>
+    <loc>https://flyhu.org/categories/soft/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://flyhu.org/tags/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://flyhu.org/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/22/20220922-deepin_docker.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/22/20220922-deepin_docker.html</loc>
     <lastmod>2022-09-22T11:34:59+08:00</lastmod>
   </url><url>
-    <loc>/tags/docker/</loc>
+    <loc>https://flyhu.org/tags/docker/</loc>
     <lastmod>2022-09-22T11:34:59+08:00</lastmod>
   </url><url>
-    <loc>/tags/erp/</loc>
+    <loc>https://flyhu.org/tags/erp/</loc>
     <lastmod>2022-09-16T15:09:18+08:00</lastmod>
   </url><url>
-    <loc>/tags/odoo/</loc>
+    <loc>https://flyhu.org/tags/odoo/</loc>
     <lastmod>2022-09-16T15:09:18+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/16/odoo_service.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/16/odoo_service.html</loc>
     <lastmod>2022-09-16T15:09:18+08:00</lastmod>
   </url><url>
-    <loc>/tags/server/</loc>
+    <loc>https://flyhu.org/tags/server/</loc>
     <lastmod>2022-09-16T15:09:18+08:00</lastmod>
   </url><url>
-    <loc>/tags/soft/</loc>
+    <loc>https://flyhu.org/tags/soft/</loc>
     <lastmod>2022-09-16T15:09:18+08:00</lastmod>
   </url><url>
-    <loc>/tags/frp/</loc>
+    <loc>https://flyhu.org/tags/frp/</loc>
     <lastmod>2022-09-16T14:49:23+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/16/1457_frp_service.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/16/1457_frp_service.html</loc>
     <lastmod>2022-09-16T14:49:23+08:00</lastmod>
   </url><url>
-    <loc>/tags/proxy/</loc>
+    <loc>https://flyhu.org/tags/proxy/</loc>
     <lastmod>2022-09-16T14:49:23+08:00</lastmod>
   </url><url>
-    <loc>/tags/nexus/</loc>
+    <loc>https://flyhu.org/tags/nexus/</loc>
     <lastmod>2022-09-16T10:08:45+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/16/nexus_repo.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/16/nexus_repo.html</loc>
     <lastmod>2022-09-16T10:08:45+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E4%BB%93%E5%BA%93/</loc>
+    <loc>https://flyhu.org/tags/%E4%BB%93%E5%BA%93/</loc>
     <lastmod>2022-09-16T10:08:45+08:00</lastmod>
   </url><url>
-    <loc>/categories/linux/</loc>
+    <loc>https://flyhu.org/categories/linux/</loc>
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
-    <loc>/tags/pi/</loc>
+    <loc>https://flyhu.org/tags/pi/</loc>
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/15/raspberry_pi.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/15/raspberry_pi.html</loc>
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
+    <loc>https://flyhu.org/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
     <lastmod>2022-09-15T16:01:31+08:00</lastmod>
   </url><url>
-    <loc>/tags/nas/</loc>
+    <loc>https://flyhu.org/tags/nas/</loc>
     <lastmod>2022-09-15T14:22:52+08:00</lastmod>
   </url><url>
-    <loc>/tags/smb/</loc>
+    <loc>https://flyhu.org/tags/smb/</loc>
     <lastmod>2022-09-15T14:22:52+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>https://flyhu.org/tags/%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2022-09-15T14:22:52+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/15/20220915_smb_server.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/15/20220915_smb_server.html</loc>
     <lastmod>2022-09-15T14:22:52+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/15/20220915_music.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/15/20220915_music.html</loc>
     <lastmod>2022-09-15T08:44:17+08:00</lastmod>
   </url><url>
-    <loc>/tags/uptime_kuma/</loc>
+    <loc>https://flyhu.org/tags/uptime_kuma/</loc>
     <lastmod>2022-09-15T08:16:15+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E7%9B%91%E6%8E%A7/</loc>
+    <loc>https://flyhu.org/tags/%E7%9B%91%E6%8E%A7/</loc>
     <lastmod>2022-09-15T08:16:15+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/15/uptimeKuma.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/15/uptimeKuma.html</loc>
     <lastmod>2022-09-15T08:16:15+08:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
+    <loc>https://flyhu.org/tags/linux/</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
-    <loc>/tags/sysctl/</loc>
+    <loc>https://flyhu.org/tags/sysctl/</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</loc>
+    <loc>https://flyhu.org/tags/%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</loc>
+    <loc>https://flyhu.org/tags/%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2022-09-14T08:45:28+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/14/install_nexus.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/14/install_nexus.html</loc>
     <lastmod>2022-09-14T08:38:06+08:00</lastmod>
   </url><url>
-    <loc>/tags/repo/</loc>
+    <loc>https://flyhu.org/tags/repo/</loc>
     <lastmod>2022-09-14T08:38:06+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/14/install_rancher.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/14/install_rancher.html</loc>
     <lastmod>2022-09-14T08:04:45+08:00</lastmod>
   </url><url>
-    <loc>/tags/k3s/</loc>
+    <loc>https://flyhu.org/tags/k3s/</loc>
     <lastmod>2022-09-14T08:04:45+08:00</lastmod>
   </url><url>
-    <loc>/categories/k3s/</loc>
+    <loc>https://flyhu.org/categories/k3s/</loc>
     <lastmod>2022-09-14T08:04:45+08:00</lastmod>
   </url><url>
-    <loc>/tags/rancher/</loc>
+    <loc>https://flyhu.org/tags/rancher/</loc>
     <lastmod>2022-09-14T08:04:45+08:00</lastmod>
   </url><url>
-    <loc>/tags/dns/</loc>
+    <loc>https://flyhu.org/tags/dns/</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
-    <loc>/tags/dnsmasq/</loc>
+    <loc>https://flyhu.org/tags/dnsmasq/</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/08/dnsmasq.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/08/dnsmasq.html</loc>
     <lastmod>2022-09-08T09:46:48+08:00</lastmod>
   </url><url>
-    <loc>/tags/django/</loc>
+    <loc>https://flyhu.org/tags/django/</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/09/07/django-nginx.html</loc>
+    <loc>https://flyhu.org/posts/2022/09/07/django-nginx.html</loc>
     <lastmod>2022-09-07T16:12:41+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/7/gproxy.html</loc>
+    <loc>https://flyhu.org/posts/2022/9/7/gproxy.html</loc>
     <lastmod>2022-09-07T14:13:16+08:00</lastmod>
   </url><url>
-    <loc>/tags/nfs/</loc>
+    <loc>https://flyhu.org/tags/nfs/</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/7/install-nfs.html</loc>
+    <loc>https://flyhu.org/posts/2022/9/7/install-nfs.html</loc>
     <lastmod>2022-09-07T11:29:31+08:00</lastmod>
   </url><url>
-    <loc>/tags/k8s/</loc>
+    <loc>https://flyhu.org/tags/k8s/</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
-    <loc>/categories/k8s/</loc>
+    <loc>https://flyhu.org/categories/k8s/</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/2/install-docker.html</loc>
+    <loc>https://flyhu.org/posts/2022/9/2/install-docker.html</loc>
     <lastmod>2022-09-02T16:06:18+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://flyhu.org/tags/%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/categories/%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://flyhu.org/categories/%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</loc>
+    <loc>https://flyhu.org/tags/%E9%98%B2%E5%8B%92%E7%B4%A2/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</loc>
+    <loc>https://flyhu.org/tags/%E9%98%B2%E6%95%B0%E6%8D%AE%E5%8B%92%E7%B4%A2/</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/1/safe.html</loc>
+    <loc>https://flyhu.org/posts/2022/9/1/safe.html</loc>
     <lastmod>2022-09-01T17:31:20+08:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://flyhu.org/about/</loc>
     <lastmod>2022-09-01T09:13:27+00:00</lastmod>
   </url><url>
-    <loc>/tags/devops/</loc>
+    <loc>https://flyhu.org/tags/devops/</loc>
     <lastmod>2022-09-01T15:37:12+08:00</lastmod>
   </url><url>
-    <loc>/tags/tools/</loc>
+    <loc>https://flyhu.org/tags/tools/</loc>
     <lastmod>2022-09-01T15:37:12+08:00</lastmod>
   </url><url>
-    <loc>/categories/tools/</loc>
+    <loc>https://flyhu.org/categories/tools/</loc>
     <lastmod>2022-09-01T15:37:12+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://flyhu.org/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-09-01T15:37:12+08:00</lastmod>
   </url><url>
-    <loc>/tools/</loc>
+    <loc>https://flyhu.org/tools/</loc>
     <lastmod>2022-09-01T15:37:12+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
+    <loc>https://flyhu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-09-01T12:31:20+08:00</lastmod>
   </url><url>
-    <loc>/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</loc>
+    <loc>https://flyhu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E6%89%8B%E5%86%8C/</loc>
     <lastmod>2022-09-01T12:31:20+08:00</lastmod>
   </url><url>
-    <loc>/posts/2022/9/1/anqian.html</loc>
+    <loc>https://flyhu.org/posts/2022/9/1/anqian.html</loc>
     <lastmod>2022-09-01T12:31:20+08:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://flyhu.org/archives/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://flyhu.org/search/</loc>
   </url>
 </urlset>

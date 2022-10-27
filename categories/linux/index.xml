@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on 网中维</title>
-    <link>/categories/linux/</link>
+    <link>https://flyhu.org/categories/linux/</link>
     <description>Recent content in linux on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Sep 2022 16:01:31 +0800</lastBuildDate><atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Sep 2022 16:01:31 +0800</lastBuildDate><atom:link href="https://flyhu.org/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>raspberry pi</title>
-      <link>/posts/2022/09/15/raspberry_pi.html</link>
+      <link>https://flyhu.org/posts/2022/09/15/raspberry_pi.html</link>
       <pubDate>Thu, 15 Sep 2022 16:01:31 +0800</pubDate>
       
-      <guid>/posts/2022/09/15/raspberry_pi.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/15/raspberry_pi.html</guid>
       <description>raspberry pi 1.下载raspberry pi 命令行版本 桌面版 命</description>
     </item>
     
     <item>
       <title>sysctl_内核优化</title>
-      <link>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</link>
+      <link>https://flyhu.org/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</link>
       <pubDate>Wed, 14 Sep 2022 08:45:28 +0800</pubDate>
       
-      <guid>/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/14/20220914_sysctl_%E4%BC%98%E5%8C%96.html</guid>
       <description>内核优化详解 net.ipv4.tcp_keepalive_time=600 #此参数表示TCP发送keepali</description>
     </item>
     

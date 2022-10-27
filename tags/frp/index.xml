@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>frp on 网中维</title>
-    <link>/tags/frp/</link>
+    <link>https://flyhu.org/tags/frp/</link>
     <description>Recent content in frp on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 14:49:23 +0800</lastBuildDate><atom:link href="/tags/frp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Sep 2022 14:49:23 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/frp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>frp_service</title>
-      <link>/posts/2022/09/16/1457_frp_service.html</link>
+      <link>https://flyhu.org/posts/2022/09/16/1457_frp_service.html</link>
       <pubDate>Fri, 16 Sep 2022 14:49:23 +0800</pubDate>
       
-      <guid>/posts/2022/09/16/1457_frp_service.html</guid>
+      <guid>https://flyhu.org/posts/2022/09/16/1457_frp_service.html</guid>
       <description>frp下载 https://github.com/fatedier/frp/releases frps 配置 #cat &amp;gt; frps.ini &amp;lt;EOF [common] bind_port = 7000 dashboard_port = 7500 token = &amp;#34;a12345678&amp;#34; dashboard_user =</description>
     </item>
     
