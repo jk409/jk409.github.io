@@ -6,7 +6,16 @@
     <description>Recent content in docker on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 08 Sep 2022 09:46:48 +0800</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 11:34:59 +0800</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20220922 Deepin_docker</title>
+      <link>/posts/2022/09/22/20220922-deepin_docker.html</link>
+      <pubDate>Thu, 22 Sep 2022 11:34:59 +0800</pubDate>
+      
+      <guid>/posts/2022/09/22/20220922-deepin_docker.html</guid>
+      <description>新系统，一般添加软件源,update,instal</description>
+    </item>
+    
     <item>
       <title>Dnsmasq</title>
       <link>/posts/2022/09/08/dnsmasq.html</link>

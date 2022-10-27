@@ -6,7 +6,25 @@
     <description>Recent content in Posts on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 09:34:45 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20221027 Gitlab_server</title>
+      <link>/posts/2022/10/27/20221027-gitlab_server.html</link>
+      <pubDate>Thu, 27 Oct 2022 09:34:45 +0800</pubDate>
+      
+      <guid>/posts/2022/10/27/20221027-gitlab_server.html</guid>
+      <description>gitlab gitlab官⽅地址：https://about</description>
+    </item>
+    
+    <item>
+      <title>20220922 Deepin_docker</title>
+      <link>/posts/2022/09/22/20220922-deepin_docker.html</link>
+      <pubDate>Thu, 22 Sep 2022 11:34:59 +0800</pubDate>
+      
+      <guid>/posts/2022/09/22/20220922-deepin_docker.html</guid>
+      <description>新系统，一般添加软件源,update,instal</description>
+    </item>
+    
     <item>
       <title>odoo_service</title>
       <link>/posts/2022/09/16/odoo_service.html</link>
