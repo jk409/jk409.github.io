@@ -13,7 +13,7 @@
       <pubDate>Sun, 30 Oct 2022 10:33:05 +0800</pubDate>
       
       <guid>https://flyhu.org/posts/2022/10/30/svn_server.html</guid>
-      <description>1.客户端下载 windos https://subversion.apache.org/packages.html https://subversion.apache.org/packages.html#windows 2.svn服务器安装 yum -y install subversion 3</description>
+      <description>客户端下载 windos https://subversion.apache.org/packages.html https://subversion.apache.org/packages.html#windows svn服务器安装 yum -y install subversion 建立版本库</description>
     </item>
     
     <item>

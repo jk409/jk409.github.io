@@ -142,6 +142,15 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
+    <li><a href="#客户端下载">客户端下载</a></li>
+    <li><a href="#svn服务器安装">svn服务器安装</a></li>
+    <li><a href="#建立版本库目录">建立版本库目录</a></li>
+    <li><a href="#用户密码passwd配置">用户密码passwd配置</a></li>
+    <li><a href="#权限控制authz配置">权限控制authz配置</a></li>
+    <li><a href="#服务svnserveconf配置">服务svnserve.conf配置</a></li>
+    <li><a href="#启动svn服务">启动svn服务</a></li>
+    <li><a href="#开启端口">开启端口</a></li>
+    <li><a href="#访问">访问</a></li>
     <li><a href="#结尾">结尾</a></li>
   </ul>
 </nav>
@@ -200,38 +209,37 @@
         </div>
         
         <div class="post-content">
-            <p>1.客户端下载
-windos
-<a href="https://subversion.apache.org/packages.html">https://subversion.apache.org/packages.html</a>
-<a href="https://subversion.apache.org/packages.html#windows">https://subversion.apache.org/packages.html#windows</a></p>
-<p>2.svn服务器安装
-yum -y install subversion</p>
-<p>3.建立版本库目录
-mkdir -p /data/svn/repo
-svnadmin create  /data/svn/repo
-执行上面的命令后，自动建立repo测试库，查看/data/svn/repo 文件夹发现包含了conf, db,format,hooks, locks, README.txt等文件，说明一个SVN库已经建立。</p>
-<p>4.用户密码passwd配置
-[root@localhost password]# cd /data/svn/repos/conf</p>
-<p>[root@admin conf]# vim passwd
-#修改passwd为以下内容：</p>
-<p>[users]</p>
-<h1 id="harry--harryssecret">harry = harryssecret</h1>
-<h1 id="sally--sallyssecret">sally = sallyssecret</h1>
-<p>hello=123</p>
-<p>#格式
+            <h2 id="客户端下载">客户端下载</h2>
+<p>windos</p>
+<p><a href="https://subversion.apache.org/packages.html">https://subversion.apache.org/packages.html</a></p>
+<p><a href="https://subversion.apache.org/packages.html#windows">https://subversion.apache.org/packages.html#windows</a></p>
+<h2 id="svn服务器安装">svn服务器安装</h2>
+<p>yum -y install subversion</p>
+<h2 id="建立版本库目录">建立版本库目录</h2>
+<p>mkdir -p /data/svn/repo &amp;&amp; svnadmin create  /data/svn/repo</p>
+<p>执行上面的命令后，自动建立repo测试库，查看/data/svn/repo 文件夹发现包含了conf, db,format,hooks, locks, README.txt等文件，说明一个SVN库已经建立。</p>
+<h2 id="用户密码passwd配置">用户密码passwd配置</h2>
+<p>[root@localhost password]# cd /data/svn/repos/conf</p>
+<p>[root@admin conf]# vim passwd</p>
+<p>#修改passwd为以下内容：</p>
+<pre tabindex="0"><code>[users]
+# harry = harryssecret
+# sally = sallyssecret
+hello=123
+</code></pre><p>#格式
 #用户名=密码
 这样我们就建立了hello用户， 123密码
 以上语句都必须顶格写, 左侧不能留空格, 否则会出错.</p>
-<p>5.权限控制authz配置
-[root@admin conf]# vi  authz</p>
+<h2 id="权限控制authz配置">权限控制authz配置</h2>
+<p>[root@admin conf]# vi  authz</p>
 <p>目的是设置哪些用户可以访问哪些目录，向authz文件追加以下内容：</p>
 <p>#设置[/]代表根目录下所有的资源   或者写成[repl:/]</p>
 <p>[/]
 hello = rw</p>
 <p>意思是hello用户对repo测试库下所有的目录有读写权限，当然也可以限定。 如果是自己用，就直接是读写吧。
 以上语句都必须顶格写, 左侧不能留空格, 否则会出错.</p>
-<p>6.服务svnserve.conf配置
-[root@admin conf]# vim svnserve.conf</p>
+<h2 id="服务svnserveconf配置">服务svnserve.conf配置</h2>
+<p>[root@admin conf]# vim svnserve.conf</p>
 <p>追加以下内容：</p>
 <p>[general]</p>
 <p>#匿名访问的权限，可以是read,write,none,默认为read</p>
@@ -245,15 +253,15 @@ hello = rw</p>
 <p>#认证命名空间，subversion会在认证提示里显示，并且作为凭证缓存的关键字</p>
 <p>realm=/data/svn/repositories</p>
 <p>以上语句都必须顶格写, 左侧不能留空格, 否则会出错.</p>
-<p>7.启动svn服务
-svnserve -d -r /data/svn/repo  &ndash;listen-port=3690</p>
-<p>8.开启端口
-/sbin/iptables -I INPUT -p tcp &ndash;dport 3690 -j ACCEPT
-/etc/rc.d/init.d/iptables save
-/etc/init.d/iptables restart
-/etc/init.d/iptables status</p>
-<p>9.访问
-svn://ip地址
+<h2 id="启动svn服务">启动svn服务</h2>
+<pre tabindex="0"><code>svnserve -d -r /data/svn/repo  --listen-port=3690
+</code></pre><h2 id="开启端口">开启端口</h2>
+<pre tabindex="0"><code> /sbin/iptables -I INPUT -p tcp --dport 3690 -j ACCEPT
+ /etc/rc.d/init.d/iptables save
+ /etc/init.d/iptables restart
+ /etc/init.d/iptables status
+</code></pre><h2 id="访问">访问</h2>
+<p>svn://ip地址
 端口默认为3690，输入配置好的用户名和密码即可。
 注意：此处千万不能 svn://ip地址/repo，否则无法访问。</p>
 <h2 id="结尾">结尾</h2>
