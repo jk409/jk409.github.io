@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Oct 2022 09:34:45 +0800</lastBuildDate><atom:link href="https://flyhu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 10:33:05 +0800</lastBuildDate><atom:link href="https://flyhu.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20221030 Svn_server</title>
+      <link>https://flyhu.org/posts/2022/10/30/svn_server.html</link>
+      <pubDate>Sun, 30 Oct 2022 10:33:05 +0800</pubDate>
+      
+      <guid>https://flyhu.org/posts/2022/10/30/svn_server.html</guid>
+      <description>1.客户端下载 windos https://subversion.apache.org/packages.html https://subversion.apache.org/packages.html#windows 2.svn服务器安装 yum -y install subversion 3</description>
+    </item>
+    
     <item>
       <title>20221027 Gitlab_server</title>
       <link>https://flyhu.org/posts/2022/10/27/20221027-gitlab_server.html</link>

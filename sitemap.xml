@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://flyhu.org/posts/2022/10/30/svn_server.html</loc>
+    <lastmod>2022-10-30T10:33:05+08:00</lastmod>
+  </url><url>
+    <loc>https://flyhu.org/posts/</loc>
+    <lastmod>2022-10-30T10:33:05+08:00</lastmod>
+  </url><url>
+    <loc>https://flyhu.org/</loc>
+    <lastmod>2022-10-30T10:33:05+08:00</lastmod>
+  </url><url>
     <loc>https://flyhu.org/posts/2022/10/27/20221027-gitlab_server.html</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
@@ -14,16 +23,10 @@
     <loc>https://flyhu.org/tags/gitlab/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
-    <loc>https://flyhu.org/posts/</loc>
-    <lastmod>2022-10-27T09:34:45+08:00</lastmod>
-  </url><url>
     <loc>https://flyhu.org/categories/soft/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
     <loc>https://flyhu.org/tags/</loc>
-    <lastmod>2022-10-27T09:34:45+08:00</lastmod>
-  </url><url>
-    <loc>https://flyhu.org/</loc>
     <lastmod>2022-10-27T09:34:45+08:00</lastmod>
   </url><url>
     <loc>https://flyhu.org/posts/2022/09/22/20220922-deepin_docker.html</loc>
