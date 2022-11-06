@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://flyhu.org/posts/2022/10/30/svn_server.html</loc>
-    <lastmod>2022-10-30T10:33:05+08:00</lastmod>
+    <loc>https://flyhu.org/posts/2022/11/06/%E5%88%B6%E4%BD%9Cimg.html</loc>
+    <lastmod>2022-11-06T11:27:00+08:00</lastmod>
   </url><url>
     <loc>https://flyhu.org/posts/</loc>
-    <lastmod>2022-10-30T10:33:05+08:00</lastmod>
+    <lastmod>2022-11-06T11:27:00+08:00</lastmod>
   </url><url>
     <loc>https://flyhu.org/</loc>
+    <lastmod>2022-11-06T11:27:00+08:00</lastmod>
+  </url><url>
+    <loc>https://flyhu.org/posts/2022/10/30/svn_server.html</loc>
     <lastmod>2022-10-30T10:33:05+08:00</lastmod>
   </url><url>
     <loc>https://flyhu.org/posts/2022/10/27/20221027-gitlab_server.html</loc>
