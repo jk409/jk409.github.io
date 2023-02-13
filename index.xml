@@ -6,7 +6,25 @@
     <description>Recent content on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 06 Nov 2022 11:27:00 +0800</lastBuildDate><atom:link href="https://flyhu.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2023 11:31:16 +0800</lastBuildDate><atom:link href="https://flyhu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20230213 Adhome</title>
+      <link>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</link>
+      <pubDate>Mon, 13 Feb 2023 11:31:16 +0800</pubDate>
+      
+      <guid>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</guid>
+      <description>linux 搭建缓存安全局域网dns adhome AdGuard Home 是一款全网广告拦截</description>
+    </item>
+    
+    <item>
+      <title>20221222 Docker Net</title>
+      <link>https://flyhu.org/posts/2022/12/22/20221222-docker-net.html</link>
+      <pubDate>Thu, 22 Dec 2022 10:20:56 +0800</pubDate>
+      
+      <guid>https://flyhu.org/posts/2022/12/22/20221222-docker-net.html</guid>
+      <description>结尾 若对你有帮助，不介意打赏支持一下,您的支持是我</description>
+    </item>
+    
     <item>
       <title>20221106_制作img</title>
       <link>https://flyhu.org/posts/2022/11/06/%E5%88%B6%E4%BD%9Cimg.html</link>
