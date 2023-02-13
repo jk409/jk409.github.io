@@ -6,7 +6,16 @@
     <description>Recent content in soft on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Sep 2022 15:09:18 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/soft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2023 11:31:16 +0800</lastBuildDate><atom:link href="https://flyhu.org/tags/soft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20230213 Adhome-安全局域网dns</title>
+      <link>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</link>
+      <pubDate>Mon, 13 Feb 2023 11:31:16 +0800</pubDate>
+      
+      <guid>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</guid>
+      <description>Adhome linux 搭建缓存安全局域网dns AdGuard Home 是一款全网广告拦截</description>
+    </item>
+    
     <item>
       <title>odoo_service</title>
       <link>https://flyhu.org/posts/2022/09/16/odoo_service.html</link>

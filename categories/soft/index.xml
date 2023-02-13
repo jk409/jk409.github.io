@@ -6,7 +6,25 @@
     <description>Recent content in soft on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Oct 2022 09:34:45 +0800</lastBuildDate><atom:link href="https://flyhu.org/categories/soft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2023 11:31:16 +0800</lastBuildDate><atom:link href="https://flyhu.org/categories/soft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20230213 Adhome-安全局域网dns</title>
+      <link>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</link>
+      <pubDate>Mon, 13 Feb 2023 11:31:16 +0800</pubDate>
+      
+      <guid>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</guid>
+      <description>Adhome linux 搭建缓存安全局域网dns AdGuard Home 是一款全网广告拦截</description>
+    </item>
+    
+    <item>
+      <title>20221030 Svn_server</title>
+      <link>https://flyhu.org/posts/2022/10/30/svn_server.html</link>
+      <pubDate>Sun, 30 Oct 2022 10:33:05 +0800</pubDate>
+      
+      <guid>https://flyhu.org/posts/2022/10/30/svn_server.html</guid>
+      <description>客户端下载 windos https://subversion.apache.org/packages.html https://subversion.apache.org/packages.html#windows svn服务器安装 yum -y install subversion 建立版本库</description>
+    </item>
+    
     <item>
       <title>20221027 Gitlab_server</title>
       <link>https://flyhu.org/posts/2022/10/27/20221027-gitlab_server.html</link>

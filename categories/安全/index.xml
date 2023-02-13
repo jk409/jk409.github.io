@@ -6,7 +6,16 @@
     <description>Recent content in 安全 on 网中维</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 01 Sep 2022 17:31:20 +0800</lastBuildDate><atom:link href="https://flyhu.org/categories/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2023 11:31:16 +0800</lastBuildDate><atom:link href="https://flyhu.org/categories/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20230213 Adhome-安全局域网dns</title>
+      <link>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</link>
+      <pubDate>Mon, 13 Feb 2023 11:31:16 +0800</pubDate>
+      
+      <guid>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</guid>
+      <description>Adhome linux 搭建缓存安全局域网dns AdGuard Home 是一款全网广告拦截</description>
+    </item>
+    
     <item>
       <title>防数据勒索</title>
       <link>https://flyhu.org/posts/2022/9/1/safe.html</link>
