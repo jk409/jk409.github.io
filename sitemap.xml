@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://flyhu.org/posts/2023/06/18/20230618-afdian.html</loc>
+    <lastmod>2023-06-18T17:58:21+08:00</lastmod>
+  </url><url>
+    <loc>https://flyhu.org/posts/</loc>
+    <lastmod>2023-06-18T17:58:21+08:00</lastmod>
+  </url><url>
+    <loc>https://flyhu.org/tags/</loc>
+    <lastmod>2023-06-18T17:58:21+08:00</lastmod>
+  </url><url>
+    <loc>https://flyhu.org/tags/%E7%88%B1%E5%8F%91%E7%94%B5/</loc>
+    <lastmod>2023-06-18T17:58:21+08:00</lastmod>
+  </url><url>
+    <loc>https://flyhu.org/</loc>
+    <lastmod>2023-06-18T17:58:21+08:00</lastmod>
+  </url><url>
     <loc>https://flyhu.org/posts/2023/02/13/20230213-adhome.html</loc>
     <lastmod>2023-02-13T11:31:16+08:00</lastmod>
   </url><url>
@@ -14,22 +29,13 @@
     <loc>https://flyhu.org/tags/dns/</loc>
     <lastmod>2023-02-13T11:31:16+08:00</lastmod>
   </url><url>
-    <loc>https://flyhu.org/posts/</loc>
-    <lastmod>2023-02-13T11:31:16+08:00</lastmod>
-  </url><url>
     <loc>https://flyhu.org/tags/soft/</loc>
     <lastmod>2023-02-13T11:31:16+08:00</lastmod>
   </url><url>
     <loc>https://flyhu.org/categories/soft/</loc>
     <lastmod>2023-02-13T11:31:16+08:00</lastmod>
   </url><url>
-    <loc>https://flyhu.org/tags/</loc>
-    <lastmod>2023-02-13T11:31:16+08:00</lastmod>
-  </url><url>
     <loc>https://flyhu.org/categories/%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2023-02-13T11:31:16+08:00</lastmod>
-  </url><url>
-    <loc>https://flyhu.org/</loc>
     <lastmod>2023-02-13T11:31:16+08:00</lastmod>
   </url><url>
     <loc>https://flyhu.org/posts/2022/12/22/20221222-docker-net.html</loc>
